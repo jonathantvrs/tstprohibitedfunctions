@@ -13,8 +13,7 @@ def custom_replace(string, parameter, new_parameter):
     return string_aux
 
 
-test = raw_input()
-
-print custom_replace(test, ",", " ")
+# test = raw_input()
+# print custom_replace(test, ",", " ")
 
 # assert custom_replace("Rafael é feio", "a", "o") == "Rofoel é feio"

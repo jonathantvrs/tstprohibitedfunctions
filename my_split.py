@@ -15,6 +15,6 @@ def custom_split(string, separator):
         elements.append(string_aux)
     return elements
 
-#print custom_split("Jonathan Everton Wesley", " ")
+# print custom_split("Jonathan Everton Wesley", " ")
 
-assert custom_split("Jonathan,Everton", ",") == ['Jonathan', 'Everton']
+# assert custom_split("Jonathan,Everton", ",") == ['Jonathan', 'Everton']
