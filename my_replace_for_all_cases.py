@@ -23,7 +23,7 @@ def custom_replace(string, parameter, new_parameter):
 
     return string_aux
 
-a = raw_input()
-print custom_replace(a, "Jonathan", "Wesley")
-
+# assert custom_replace("Eu sou Jonathan. Me chamam de Jonathan. Mas prefiro Jon.", "Jonathan", "Wesley") == \
+#                        "Eu sou Wesley. Me chamam de Wesley. Mas prefiro Jon."
+# assert custom_replace("aaaaa", "a", "b") == "bbbbb"
 # assert custom_replace("I am Jon. I am a boy", "I am", "We are") == "We are Jon. We are a boy"
