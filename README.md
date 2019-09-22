@@ -14,7 +14,7 @@
 
 __Extra__
 
-[Prohibited Functions](Prohibited&#32Functions)
+[Prohibited Functions](Prohibited%20Functions)
 _______________________________________________
 
 Author: [__@jonathantvrs__](https://github.com/jonathantvrs)
