@@ -2,26 +2,25 @@
 # author: jonathantvrs
 
 def fin(l, parameter):
-    """Returns a list of strings divided by separator. 
+    """Returns True if parameter was found in l. 
 
-    Iterate the received string character by character
-    and add the formed string to the list when it finds
-    the separator.
+    
 
     Parameters
     ----------
-    string : str
-        string to split
-    separator : str, default is " " (space)
-        parameter used to split the string 
+    l : list
+        
+    parameter : str
+         
         
     Return
     ------
-    elements : list
+    found : bool
         list containing the strings 
     """
+    found = False
     for e in l:
         if e == parameter:
-            return True
+            found = True
     
-    return False
+    return found

@@ -1,15 +1,29 @@
 # -*- coding: utf-8 -*-
-# author: jonathan
+# author: jonathantvrs
 
-def custom_insert(l, position, element):
-	
+def custom_insert(l, pos, element):
+	"""Returns the list with new element added at
+	the defined position. 
+
+	Add element to the end of the list and sort it
+	to be in the position indicated.
+
+    Parameters
+    ----------
+    l : list
+        list where element will be added
+    pos : int
+        position that will be inserted
+	element : int
+        element that will be inserted 
+        
+    Return
+    ------
+    l : list
+		list updated with new element
+    """
 	l.append(element)
-	
-	for i in range(len(l) - 1, position, -1):
+	for i in range(len(l) - 1, pos, -1):
 		l[i], l[i - 1] = l[i - 1], l[i]
 	
 	return l
-
-	    
-assert custom_insert([1, 2, 3, 4, 5], 0, 0) == [0, 1, 2, 3, 4, 5]
-assert custom_insert(["Jonathan", "Wesley"], 1, "Everton") == ["Jonathan", "Everton" ,"Wesley"]
