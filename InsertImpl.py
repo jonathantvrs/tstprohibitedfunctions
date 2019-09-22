@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # author: jonathantvrs
 
-def custom_insert(l, pos, element):
+def finsert(l, pos, element):
 	"""Returns the list with new element added at
 	the defined position. 
 

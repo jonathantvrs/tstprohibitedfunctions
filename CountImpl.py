@@ -1,12 +1,25 @@
-def custom_count(list, parameter):
-    counter = 0
+def fcount(l, parameter):
+    """Returns number of occurrences of an element
+    in the list or string. 
 
-    for element in list:
-        if element == parameter:
+    Search for occurrences of an element in a list
+    or string and counts them.
+
+    Parameters
+    ----------
+    l : list | str
+        structure to iterate
+    parameter : str
+        element that will be counted
+        
+    Return
+    ------
+    counter : int
+        number of occurrences of the element 
+    """
+    counter = 0
+    for e in l:
+        if e == parameter:
             counter = counter + 1
 
     return counter
-
-# assert custom_count(["abc", 2, 123, "abc", "qwe"], "abc") == 2
-# assert custom_count([123, 234, "abc", 345], 123) == 1
-# assert custom_count(["abc"], "abc") == 1
