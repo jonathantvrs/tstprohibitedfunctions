@@ -13,8 +13,6 @@ def custom_split(string, separator):
             string_aux = ""
     if string_aux != "" or string_aux != separator:
         elements.append(string_aux)
+    
     return elements
 
-# print custom_split("Jonathan Everton Wesley", " ")
-
-# assert custom_split("Jonathan,Everton", ",") == ['Jonathan', 'Everton']
