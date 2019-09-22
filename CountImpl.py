@@ -1,3 +1,6 @@
+# -*-  coding: utf-8  -*-
+# author: jonathantvrs
+
 def fcount(l, parameter):
     """Returns number of occurrences of an element
     in the list or string. 
