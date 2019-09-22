@@ -14,7 +14,7 @@ def fcount(l, parameter):
         structure to iterate
     parameter : str
         element that will be counted
-        
+
     Return
     ------
     counter : int
