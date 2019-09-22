@@ -1,11 +1,27 @@
 # -*-  coding: utf-8  -*-
 # author: jonathantvrs
 
-def custom_in(list, parameter):
-    for element in list:
-        if element == parameter:
-            return True
-        return False
+def fin(l, parameter):
+    """Returns a list of strings divided by separator. 
 
-# assert custom_in(["a", "oam", "okay"],"b") == False
-# assert custom_in(["b", "aom", "okay"]) == True
+    Iterate the received string character by character
+    and add the formed string to the list when it finds
+    the separator.
+
+    Parameters
+    ----------
+    string : str
+        string to split
+    separator : str, default is " " (space)
+        parameter used to split the string 
+        
+    Return
+    ------
+    elements : list
+        list containing the strings 
+    """
+    for e in l:
+        if e == parameter:
+            return True
+    
+    return False

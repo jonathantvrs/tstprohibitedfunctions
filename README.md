@@ -1,1 +1,4 @@
-# TST Prohibited Functions
+# Programação 1 UFCG - TST Prohibited Functions
+
+
+- Author: @jonathantvrs
