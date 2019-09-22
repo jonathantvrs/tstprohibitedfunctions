@@ -1,0 +1,14 @@
+{
+  "files": {
+    "login.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndef my_in(p, l):\n    for e in l:\n        if e == p:\n            return True\n    return False\n    \ndef my_split(seq, p):\n    els = []\n    str_aux = \"\"\n\n    for el in seq:\n        if el != p:\n            str_aux += el\n        else:\n            els.append(str_aux)\n            str_aux = \"\"\n    if str_aux != \"\" or str_aux != p:\n        els.append(str_aux)\n    \n    return els\n\ndef cria_login(nome):\n    lista_nome = my_split(nome, \" \")\n    login = \"\"    \n\n    for i in range(len(lista_nome)):\n        nome = lista_nome[i]\n        if i == 0:\n            for l in nome:\n                login += l.lower()\n        else:\n            if not my_in(nome[0] + nome[1], [\"da\", \"de\", \"di\", \"do\", \"du\"]):\n                login += nome[0].lower()\n    return login\n\n\nwhile True:\n    nome = raw_input()\n    \n    if nome != \"fim\":\n        print \"%s: %s\" % (nome, cria_login(nome))\n    else:\n        break\n    \n",
+      "name": "login.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "c1325964e95be8a7d68130de2fb9f00a",
+  "iid": 6415436799279104,
+  "activity_revision": "1.0.0"
+}

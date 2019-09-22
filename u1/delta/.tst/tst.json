@@ -1,0 +1,14 @@
+{
+  "files": {
+    "delta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\na = float(raw_input())\nb = float(raw_input())\nc = float(raw_input())\n\nprint \"%.1f\" % (b ** 2 - 4 * a * c)\n",
+      "name": "delta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "60f61e85783a94c1e594882182458de7",
+  "iid": 5340776087158784,
+  "activity_revision": "1.1.0"
+}

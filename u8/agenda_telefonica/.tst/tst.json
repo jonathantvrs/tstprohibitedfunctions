@@ -1,0 +1,14 @@
+{
+  "files": {
+    "agenda.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nagenda_nomes = []\nagenda_telefones = []\n\ndef inserir_contato(quantidade, agenda_nomes, agenda_telefones):\n    for i in range(quantidade):\n        nome = raw_input()\n        numero = raw_input()\n\n        agenda_nomes.append(nome)\n        agenda_telefones.append(numero)\n        \n        for i in range(len(agenda_nomes) - 1, -1, -1):\n            if agenda_nomes[i] > nome:\n                agenda_nomes[i], agenda_nomes[i + 1] = nome, agenda_nomes[i] \n                agenda_telefones[i], agenda_telefones[i + 1] = numero, agenda_telefones[i]\n\ndef buscar_contato(nome, agenda_nomes, agenda_telefones):\n    quantidade_achados = 0\n    for i in range(len(agenda_nomes)):\n        if nome == agenda_nomes[i]:\n            print \"Nome: %s\" % agenda_nomes[i]\n            print \"Fone: %s\" % agenda_telefones[i]\n            print \"----------\"\n            \n            quantidade_achados += 1\n    \n    if quantidade_achados == 0:\n        print \"Nome inexistente\"\n        print \"----------\"\n            \n\ndef imprimir_agenda(agenda_nomes, agenda_telefones):\n    for i in range(len(agenda_nomes)):\n        print \"Nome: %s\" % agenda_nomes[i]\n        print \"Fone: %s\" % agenda_telefones[i]\n        print \"----------\"\n        \nwhile True:\n    acao = raw_input()\n\n    if acao == \"inserir\":\n        quantidade = int(raw_input())\n        inserir_contato(quantidade, agenda_nomes, agenda_telefones)\n    elif acao == \"buscar\":\n        nome = raw_input()\n        buscar_contato(nome, agenda_nomes, agenda_telefones)\n    elif acao == \"imprimir\":\n        imprimir_agenda(agenda_nomes, agenda_telefones)\n    elif acao == \"finalizar\": \n        break\n",
+      "name": "agenda.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "025d1a95df82e4f6ff872b1943f02b56",
+  "iid": 5024670889803776,
+  "activity_revision": "1.0.0"
+}

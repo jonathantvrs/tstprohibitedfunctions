@@ -1,0 +1,18 @@
+{
+  "files": {
+    "bcd.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nbcd = raw_input()\n\nwhile bcd != \"fim\":\n    if len(bcd) == 8:\n        first_binary = int(bcd[0] + bcd[1] + bcd[2] + bcd[3], 2)\n        second_binary = int(bcd[4] + bcd[5] + bcd[6] + bcd[7], 2)\n    \n        if first_binary < 10 and second_binary < 10:\n            print str(first_binary) + str(second_binary)\n        else:\n            print \"BCD inv\u00e1lido.\"\n    else: print \"Tente novamente.\"\n\n    bcd = raw_input()\n        \n",
+      "name": "bcd.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 6,\n      \"pep8\": 0,\n      \"lloc\": 15,\n      \"vhalstead\": 72.0,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7f4b12ee8dce4b310129e65d10d538ea",
+  "iid": 5800436908949504,
+  "activity_revision": "1.0.3"
+}

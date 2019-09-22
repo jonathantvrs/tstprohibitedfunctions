@@ -1,0 +1,14 @@
+{
+  "files": {
+    "nota_pra_final.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nparcial = float(raw_input())\n\nnota_na_final = (5.0 - parcial * 0.6) / 0.4\n\nprint \"%.1f\" % nota_na_final\n",
+      "name": "nota_pra_final.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7a059b40fe905b07d3fa0efa6f3c43e1",
+  "iid": 5339949238845440,
+  "activity_revision": "1.2.0"
+}

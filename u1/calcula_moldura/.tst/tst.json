@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calcula_moldura.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\ncomprimento = float(raw_input())\nlargura = float(raw_input())\n\nvalor_final = (comprimento / 100 * 120 + largura / 100 * 120) * 2\n\nprint \"R$ \" + str(valor_final)\n",
+      "name": "calcula_moldura.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "67c0e6d82d136ad486a0ab4d1278f02c",
+  "iid": 5148130563588096,
+  "activity_revision": "1.0.4"
+}

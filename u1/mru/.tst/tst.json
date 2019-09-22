@@ -1,0 +1,14 @@
+{
+  "files": {
+    "mru.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8  -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nposicao_inicial = float(raw_input())\nvelocidade = float(raw_input())\ntempo = float(raw_input())\n\nprint \"Posi\u00e7\u00e3o final do m\u00f3vel\"\nprint \"S(%.1f) = %.1f m\" % (tempo, (posicao_inicial + velocidade * tempo))\n",
+      "name": "mru.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e14f1e728db16e9fc540506cb692759a",
+  "iid": 6068493669629952,
+  "activity_revision": "1.1.2"
+}

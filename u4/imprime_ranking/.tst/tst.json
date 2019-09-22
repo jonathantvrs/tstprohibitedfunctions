@@ -1,0 +1,12 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"lloc\": 12,\n      \"header\": 4,\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"vhalstead\": 28.53,\n      \"icheckscore\": 0.43\n    }\n  ],\n  \"problem_vocabulary\": [\n    \"represent\",\n    \"utiliz\",\n    \"consid\",\n    \"ranking\",\n    \"ocup\",\n    \"uniclinic\",\n    \"inicialmente\",\n    \"entradas\",\n    \"veja\",\n    \"acim\",\n    \"entr\",\n    \"futebol\",\n    \"nautico\",\n    \"times\",\n    \"escreva\",\n    \"par\",\n    \"cumulativo\",\n    \"outr\",\n    \"exempl\",\n    \"vez\",\n    \"pontuacoes\",\n    \"posicao\",\n    \"nenhum\",\n    \"linhas\",\n    \"pontuacao\",\n    \"ordem\",\n    \"porque\",\n    \"nom\",\n    \"seguintes\",\n    \"atencao\",\n    \"cop\",\n    \"ordenados\",\n    \"alternadamente\",\n    \"nord\",\n    \"forma\",\n    \"apresent\",\n    \"maior\",\n    \"santa\",\n    \"saida\",\n    \"cruz\",\n    \"observe\",\n    \"numero\",\n    \"mesm\",\n    \"campeonato\",\n    \"grupo\",\n    \"lista\",\n    \"campinense\",\n    \"abaix\",\n    \"primeira\",\n    \"imprim\",\n    \"recebe\",\n    \"formato\",\n    \"assuma\",\n    \"pontos\",\n    \"seguida\",\n    \"decresc\",\n    \"considerando\",\n    \"time\",\n    \"classificacao\",\n    \"ocupam\",\n    \"organiz\"\n  ]\n}"
+    }
+  },
+  "iid": 5825398554230784,
+  "kind": "assignment",
+  "activity_revision": "1.0.1",
+  "name": null
+}

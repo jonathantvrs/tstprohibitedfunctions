@@ -1,0 +1,14 @@
+{
+  "files": {
+    "consumo_gasolina_mt1.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\npos_inicial = float(raw_input())\nlitros_inicial = float(raw_input())\npos_final = float(raw_input())\nlitros_final = float(raw_input())\n\nconsumo = abs((pos_final - pos_inicial) / (litros_final - litros_inicial))\n\nprint \"%.1f\" % consumo\n",
+      "name": "consumo_gasolina_mt1.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "500a8233e46a2ed8d542f1676d5b3046",
+  "iid": 5471406846377984,
+  "activity_revision": "1.0.0"
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "dez.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero_um = int(raw_input())\nnumero_dois = int(raw_input())\n\nsoma = numero_um + numero_dois\n\nif soma == 10 or numero_um == 10 or numero_dois == 10:\n    print \"SIM\"\nelse:\n    print \"NAO\"\n",
+      "name": "dez.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 6,\n      \"vhalstead\": 53.15,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "6349b9576c9e1c22e0c7f6e5971fa5d4",
+  "iid": 5867195531788288,
+  "activity_revision": "1.0.2"
+}

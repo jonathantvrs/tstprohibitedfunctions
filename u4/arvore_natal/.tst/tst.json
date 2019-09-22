@@ -1,0 +1,14 @@
+{
+  "files": {
+    "arvore_natal.py": {
+      "category": "answer",
+      "data": "# -*- coding:utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\naltura_arvore = int(raw_input())\n\nfor i in range(altura_arvore):\n\tprint \" \" * (altura_arvore - i - 1) + \"o\" * (2 * i + 1)\n\nprint \" \" * (altura_arvore - 1) + \"o\"\n",
+      "name": "arvore_natal.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "2becea968e79439861dad59c8bea75fe",
+  "iid": 5025269735751680,
+  "activity_revision": "1.0.0"
+}

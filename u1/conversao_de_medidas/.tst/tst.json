@@ -1,0 +1,14 @@
+{
+  "files": {
+    "conversao_de_medidas.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nmilhas = float(raw_input()) \nlibras = float(raw_input())\ngaloes = float(raw_input())\n\ns = \" \"\n\nprint str(milhas * 1.60934) + s +  str(libras * 0.453592) + s + str(galoes * 3.78541) \n",
+      "name": "conversao_de_medidas.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "959ca605aca4c8eb6664932e39eae741",
+  "iid": 4829338025328640,
+  "activity_revision": "1.0.0"
+}

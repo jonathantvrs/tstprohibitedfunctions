@@ -1,0 +1,14 @@
+{
+  "files": {
+    "mru_2.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ninitial_space = float(raw_input())\nvelocity = float(raw_input())\ntime = float(raw_input())\n\nspace_in_function_of_time = initial_space + velocity * time\n\nprint \"%.2f\" % space_in_function_of_time\n",
+      "name": "mru_2.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "0e290023750c8bc2ee570d57c4716d84",
+  "iid": 5226096433823744,
+  "activity_revision": "1.1.1"
+}

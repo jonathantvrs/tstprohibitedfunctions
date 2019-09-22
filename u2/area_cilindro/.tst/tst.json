@@ -1,0 +1,14 @@
+{
+  "files": {
+    "area_cilindro.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\nprint \"C\u00e1lculo da Superf\u00edcie de um Cilindro\\n---\"\n\ndiametro_cilindro = float(raw_input(\"Medida do di\u00e2metro? \"))\naltura_cilindro = float(raw_input(\"Medida da altura? \"))\n\nraio = diametro_cilindro / 2\narea_cilindro = 2 * raio * altura_cilindro * math.pi + 2 * math.pi * raio ** 2\n\nprint \"---\\n\u00c1rea calculada: %.2f\" % area_cilindro\n",
+      "name": "area_cilindro.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "cbcc69d9943a737e95259d9f2e3c9ede",
+  "iid": 5123903324160000,
+  "activity_revision": "1.1.0"
+}

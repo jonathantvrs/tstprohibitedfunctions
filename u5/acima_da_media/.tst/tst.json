@@ -1,0 +1,14 @@
+{
+  "files": {
+    "acima.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# jonathan.tavares.silva\n# 118210631\n\nmedia_mensal_ssp = float(raw_input())\n\n\nsequencia = \"\"\t\nwhile True:\n    dados = raw_input().split()\n    \n    avg = 0\n\n    if dados[0] != \"fim\":\n        for dado in dados:\n            avg += int(dado)\n        avg /= float(len(dados))\n \n        if avg > media_mensal_ssp / 2: \n            if avg > media_mensal_ssp:\n                for i in range(len(dados)):\n                    if (i + 1) < len(dados):       \n                        sequencia += dados[i] + \" \"\n                    else:\n                        sequencia += dados[i]\n                print sequencia\n                sequencia = \"\"\n        else: break\n    else: break \n",
+      "name": "acima.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ff6d4f2126c4218267710551d9c4a1c8",
+  "iid": 5814746364248064,
+  "activity_revision": "1.0.1"
+}

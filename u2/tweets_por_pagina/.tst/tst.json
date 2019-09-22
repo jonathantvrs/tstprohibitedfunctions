@@ -1,0 +1,14 @@
+{
+  "files": {
+    "tweets.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nquantidade_tweets = int(raw_input())\n\npaginas_necessarias = quantidade_tweets / 400\ntweets_perdidos = quantidade_tweets % 400\nporcentagem_perdidos = tweets_perdidos / float(quantidade_tweets) * 100.0  \n\nprint \"Ser\u00e3o necess\u00e1rias %d p\u00e1gina(s) para visualizar os tweets.\" % paginas_necessarias\nprint \"%.1f%% dos tweets ser\u00e3o perdidos.\" % porcentagem_perdidos\n",
+      "name": "tweets.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "55867e1b9c755fddbcb56a2f8390b631",
+  "iid": 5840712696332288,
+  "activity_revision": "1.1.1"
+}

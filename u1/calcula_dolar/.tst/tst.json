@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calcula_dolar.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nreais = float(raw_input(\"Reais? \"))\ncotacao = float(raw_input(\"Cota\u00e7\u00e3o? \"))\n\nprint \"Convers\u00e3o: $ \" + str(reais * cotacao)\n",
+      "name": "calcula_dolar.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "5485d148542c69fe7b53aeb7dbebb1e6",
+  "iid": 5511894697771008,
+  "activity_revision": "1.0.1"
+}

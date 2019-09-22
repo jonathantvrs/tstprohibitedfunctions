@@ -1,0 +1,14 @@
+{
+  "files": {
+    "digito.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nconta = int(raw_input())\n\nprimeiro_digito = conta / 10000 % 10\nsegundo_digito = conta / 1000 % 10\nterceiro_digito = conta / 100 % 10\nquarto_digito = conta / 10 % 10\nquinto_digito = conta / 1 % 10\n \ndigito_verificador = (primeiro_digito + segundo_digito + terceiro_digito + quarto_digito + quinto_digito) % 11\n\nprint \"%.5d-%.2d\" % (conta, digito_verificador)\n",
+      "name": "digito.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "11a00934b34b60fdb5a7c33907046915",
+  "iid": 5789046387245056,
+  "activity_revision": "1.1.0"
+}

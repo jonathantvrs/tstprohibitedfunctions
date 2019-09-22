@@ -1,0 +1,14 @@
+{
+  "files": {
+    "compex.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\n# transforma decimal em binario de 8 bits\ndef dec_to_bin(numero):\n    string_binario = bin(numero)\n\n    novo_binario = \"\"\n    \n    if numero < 0:\n        for i in range(3, len(string_binario)):\n            novo_binario += string_binario[i]\n    else:\n        for i in range(2, len(string_binario)):\n            novo_binario += string_binario[i]\n    \n    if len(novo_binario) < 8:\n        diferenca = \"0\" * (8 - len(novo_binario))\n        binario_com_8 = diferenca + novo_binario\n        \n        return binario_com_8      \n\n    return novo_binario\n            \n# calcula binario em excesso de 127\ndef excesso_127(numero):\n    print dec_to_bin(numero)\n# calcula complemento de 1 de um numero decimal\ndef complemento1(numero):\n    if numero < 0:\n        numero = dec_to_bin(numero)\n\n        novo_numero = \"\"\n        for binario in numero:\n            if binario == \"0\":\n                novo_numero += \"1\"\n            elif binario == \"1\":\n                novo_numero += \"0\"\n        print novo_numero      \n    elif numero >= 0:\n        print dec_to_bin(numero)\n\nwhile True:\n    entrada = raw_input()\n    entrada = entrada.split()\n\n    if entrada[0] == \"***\":\n        break\n    elif entrada[0] == \"C1\":\n        complemento1(int(entrada[1]))\n    elif entrada[0] == \"E127\":\n        excesso_127(127 + int(entrada[1]))\n\n",
+      "name": "compex.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8afdb679197aa25a6d1b3cf3afc587df",
+  "iid": 5207603680378880,
+  "activity_revision": "1.0.0"
+}

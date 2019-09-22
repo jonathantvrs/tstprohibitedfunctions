@@ -1,0 +1,14 @@
+{
+  "files": {
+    "metros_em_km.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nmetros = int(raw_input())\n\nm_to_km = metros / 1000.0\n\nprint \"%d m = %.2f km\" % (metros, m_to_km)\n",
+      "name": "metros_em_km.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "0f7270927294bfd4f666f8f4ee364aef",
+  "iid": 5863961287196672,
+  "activity_revision": "1.1.1"
+}

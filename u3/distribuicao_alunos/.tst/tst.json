@@ -1,0 +1,14 @@
+{
+  "files": {
+    "distribuicao.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nunidade = int(raw_input())\ndeseja_pular = raw_input()\nqtd_questoes = int(raw_input())\n\nif deseja_pular == \"sim\" and qtd_questoes > 0:\n    unidade += 1\n\nif 1 <= unidade <= 4:\n    print \"O aluno deve assistir aula com o prof Jo\u00e3o.\"\nelif 5 <= unidade <= 8:\n    print \"O aluno deve assistir aula com o prof Dalton.\"\nelse:\n    print \"O aluno deve assistir aula com o prof Jorge.\" \n     \n",
+      "name": "distribuicao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "12f6f12d26e198bea069a6f9698ecc31",
+  "iid": 5797266686214144,
+  "activity_revision": "1.0.2"
+}

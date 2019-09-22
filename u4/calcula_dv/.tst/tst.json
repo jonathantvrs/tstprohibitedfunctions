@@ -1,0 +1,18 @@
+{
+  "files": {
+    "calcula.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero_banco = raw_input()\n\nsoma_pares = 0\nsoma_impares = 0\nfor i in range(len(numero_banco)):\n    if i % 2 == 0:\n        soma_pares += int(numero_banco[i]) \n    else:\n        soma_impares += int(numero_banco[i])\n\ndigito_verificador = soma_pares * soma_impares % 11\n\nif digito_verificador == 10:\n    digito_verificador = 'X'\n\nprint \"%s-%s\" % (numero_banco, digito_verificador)\n",
+      "name": "calcula.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 4,\n      \"pep8\": 0,\n      \"lloc\": 11,\n      \"vhalstead\": 68.53,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "0a4804df54015f1f36cb4543c34b6e26",
+  "iid": 6465989336104960,
+  "activity_revision": "1.1.2"
+}

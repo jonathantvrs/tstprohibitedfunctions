@@ -1,0 +1,18 @@
+{
+  "files": {
+    "classifica_corredor.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nquantidade_km = float(raw_input())\ntempo = float(raw_input())\n\nvelocidade = quantidade_km / tempo\n\nif velocidade < 10:\n    corredor = 'amador'\nelif 10 <= velocidade <= 15:\n    corredor = 'aspirante'\nelse:\n    corredor = 'profissional'\n\n\nprint \"Velocidade: %.1fkm/h. Corredor %s.\" % (velocidade, corredor)\n",
+      "name": "classifica_corredor.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 10,\n      \"vhalstead\": 41.51,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "23a7f725a9a6d2a27f62051569d9a8b4",
+  "iid": 6085336383881216,
+  "activity_revision": "1.0.6"
+}

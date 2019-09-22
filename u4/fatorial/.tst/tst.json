@@ -1,0 +1,18 @@
+{
+  "files": {
+    "fatorial.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero = int(raw_input())\n\nfatorial = 1\nfor i in range(numero, 0, -1):\n    fatorial *= i\n\nprint fatorial\n",
+      "name": "fatorial.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 2,\n      \"pep8\": 0,\n      \"lloc\": 5,\n      \"vhalstead\": 15.51,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8542a6755b9bde815bbf394c5584c7a5",
+  "iid": 5326102566273024,
+  "activity_revision": "1.1.1"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "area_circulo.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\nraio = float(raw_input())\n\nprint '%.2f' % (raio ** 2 * math.pi)\n",
+      "name": "area_circulo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "87128f50f2b9093e0bb9077a3082d896",
+  "iid": 4985196248039424,
+  "activity_revision": "1.1.3"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "media_final.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nmedia_parcial = float(raw_input())\nnota_final = float(raw_input())\n\nprint \"M\u00e9dia final: %.1f\" % (media_parcial * 0.6 + nota_final * 0.4)\n",
+      "name": "media_final.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ae4b567f88c0df400066b958d08367d1",
+  "iid": 5158710947086336,
+  "activity_revision": "1.0.1"
+}

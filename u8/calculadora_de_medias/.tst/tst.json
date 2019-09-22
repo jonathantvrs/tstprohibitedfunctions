@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calc.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\n'''\nCalcula M\u00e9dia Aritm\u00e9tica de n\u00fameros de uma lista\n'''\ndef media_aritmetica(lista):\n    soma_numeros, media_aritmetica = 0.0, 0.0\n    for num in lista:\n        soma_numeros += float(num)\n\n    media_aritmetica = soma_numeros / len(lista)\n\n    return media_aritmetica\n'''\nCalcula M\u00e9dia Geom\u00e9trica de n\u00fameros de uma lista\n'''\ndef media_geometrica(lista):\n    multiplica_numeros, media_geometrica = 1.0, 0.0\n    for num in lista:\n        multiplica_numeros *= float(num)\n\n    media_geometrica = multiplica_numeros ** (1.0 / len(lista))\n\n    return media_geometrica\n'''\nCalcula M\u00e9dia Harm\u00f4nica de n\u00fameros de uma lista\n'''\ndef media_harmonica(lista):\n    soma_inversos, media_harmonica = 0.0, 0.0\n    for num in lista:\n        soma_inversos += (1.0 / float(num))\n\n    media_harmonica = len(lista) / soma_inversos\n\n    return media_harmonica \n\ndef calcula_media(lista_entradas, lista_numeros):\n    for entrada in lista_entradas:\n        if entrada == \"MG\":\n            print \"M\u00e9dia Geom\u00e9trica: %.4f\" % media_geometrica(lista_numeros)\n        elif entrada == \"MH\":\n            print \"M\u00e9dia Harm\u00f4nica: %.4f\" % media_harmonica(lista_numeros)\n        elif entrada == \"MA\":\n            print \"M\u00e9dia Aritm\u00e9tica: %.4f\" % media_aritmetica(lista_numeros)\n    print \"----\"\n\n\ndef main():\n    while True:\n        entrada = raw_input()\n        if entrada == \"Q\":\n            break\n        numeros = raw_input()\n        lista_entradas = entrada.split()\n        lista_numeros = numeros.split()\n    \n        calcula_media(lista_entradas, lista_numeros)  \n\nmain()  \n",
+      "name": "calc.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "04eb9e1edd38249bfa97382059d5310d",
+  "iid": 5231522500050944,
+  "activity_revision": "1.0.1"
+}

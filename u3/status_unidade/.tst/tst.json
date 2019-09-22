@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 4,\n      \"pep8\": 0,\n      \"lloc\": 17,\n      \"vhalstead\": 147.16,\n      \"header\": 3\n    }\n  ]\n}"
+    },
+    "s_unidade.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nquantidade_minitestes = int(raw_input())\n\nif quantidade_minitestes == 1:\n    media = float(raw_input())\n    print media\n    print \"Aluno ainda n\u00e3o aprovado na unidade\"\nelif quantidade_minitestes == 2:\n    nota_um = float(raw_input())\n    nota_dois = float(raw_input())\n    \n    media = (nota_um + nota_dois) / 2.0\n    \n    print media\n    \n    if media < 6:\n        print \"Aluno ainda n\u00e3o aprovado na unidade\"\n    else:\n        print \"Aluno aprovado na unidade\"\nelse:\n    nota_um = float(raw_input())\n    nota_dois = float(raw_input())\n    nota_tres = float(raw_input())\n    \n    media = (nota_um + nota_dois + nota_tres) / 3.0\n    media -= 0.5\n    \n    print media    \n    \n    if media < 6:\n        print \"Aluno ainda n\u00e3o aprovado na unidade\"\n    else:\n        print \"Aluno aprovado na unidade\"\n    \n    \n",
+      "name": "s_unidade.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "151b78084561d8149495c885a165866d",
+  "iid": 6180132117020672,
+  "activity_revision": "1.0.2"
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 12,\n      \"vhalstead\": 62.27,\n      \"header\": 3\n    }\n  ]\n}"
+    },
+    "fundo.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnum_investiments = 0.0\nsum_investiments, average_investiments = 0.0, 0.0\nwhile True:\n    investiment = float(raw_input())\n    num_investiments += 1.0\n    \n    if investiment >= average_investiments:\n        \n        sum_investiments += investiment\n    else:\n        break\n    average_investiments = sum_investiments / num_investiments\n    \n   \nprint \"Saldo total do FIS: R$%.2f.\" % sum_investiments\nprint \"M\u00e9dia das contribui\u00e7\u00f5es: R$%.2f.\" % average_investiments\n        \n\n",
+      "name": "fundo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "09ea186916d57d4d41b4b15159972948",
+  "iid": 6340500156055552,
+  "activity_revision": "1.0.1"
+}

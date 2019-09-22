@@ -1,0 +1,14 @@
+{
+  "files": {
+    "caixa_preta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ncontador_peso, contador_combustivel, contador_altitude = 0, 0, 0\nwhile True:\n    caixa = raw_input().split()\n \n    peso, combustivel, altitude = int(caixa[0]), int(caixa[1]), int(caixa[2])\n    if peso >= 0:\n        contador_peso += 1\n        if combustivel >= 0:\n            contador_combustivel += 1\n            if altitude >= 0:\n                contador_altitude += 1\n            else:\n                print \"dado inconsistente. altitude negativa.\"\n                break\n        else:\n            print \"dado inconsistente. combust\u00edvel negativo.\"\n            break \n    else:\n        print \"dado inconsistente. peso negativo.\"\n        break\n    \nprint \"peso: %d\" % contador_peso\nprint \"combust\u00edvel: %d\" % contador_combustivel\nprint \"altitude: %d\" % contador_altitude\n",
+      "name": "caixa_preta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d17a27140ccb5a662e0d8886257ca719",
+  "iid": 5892500707344384,
+  "activity_revision": "1.0.1"
+}

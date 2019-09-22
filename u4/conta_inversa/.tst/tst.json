@@ -1,0 +1,14 @@
+{
+  "files": {
+    "conta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npalavra = raw_input()\n\ncaracteres_coincidentes = 0\npalavra_invertida = \"\"\nfor i in range(len(palavra) - 1, -1, -1):\n    palavra_invertida += palavra[i]\nfor i in range(len(palavra)):\n    if palavra_invertida[i] == palavra[i]:\n        caracteres_coincidentes += 1\n\nprint \"A palavra %s cont\u00e9m %d caractere(s) coincidente(s) com a sua inversa.\" % (palavra, caracteres_coincidentes) \n",
+      "name": "conta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "592f8059221622fa8b3242746a44a593",
+  "iid": 6119925265465344,
+  "activity_revision": "1.1.1"
+}

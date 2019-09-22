@@ -1,0 +1,18 @@
+{
+  "files": {
+    "encontra.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumber = int(raw_input())\nint_sequence = raw_input().split()\n\nit_is = False\nfor i in range(len(int_sequence)):\n    if number == int(int_sequence[i]):\n        print \"sim\"\n        it_is = True\n        break\n\nif not it_is:\n    print \"n\u00e3o\"\n\n",
+      "name": "encontra.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 8,\n      \"vhalstead\": 4.75,\n      \"header\": 1\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ebcf01c922ffb574f2700b0431dd6b14",
+  "iid": 5737769712222208,
+  "activity_revision": "1.0.1"
+}

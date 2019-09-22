@@ -1,0 +1,14 @@
+{
+  "files": {
+    "sensor.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nruido = raw_input()\nhora = int(raw_input())\n\nif ruido == \"\":\n    print \"Condom\u00ednio em Paz.\"\nelse:\n    if 22 <= hora <= 24 or hora <= 6:\n        print \"Perturba\u00e7\u00e3o Detectada!\"\n    else:\n        print \"Condom\u00ednio em Paz.\"\n",
+      "name": "sensor.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "90cea00b38bac0dc9200f8313d046537",
+  "iid": 6364213979119616,
+  "activity_revision": "1.0.1"
+}

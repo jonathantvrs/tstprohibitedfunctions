@@ -1,0 +1,14 @@
+{
+  "files": {
+    "media_magica.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nnumero_um = int(raw_input())\nnumero_dois = int(raw_input())\nnumero_tres = int(raw_input())\n\nmedia = (numero_um + numero_dois + numero_tres) / 3.0\n\nprint \"%.3f\" % media\n",
+      "name": "media_magica.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "439231191409ce285939ceadabb57869",
+  "iid": 5847221450833920,
+  "activity_revision": "1.1.1"
+}

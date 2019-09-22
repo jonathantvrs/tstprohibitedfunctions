@@ -1,0 +1,18 @@
+{
+  "files": {
+    "roleta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero_aposta = int(raw_input()) \ncor_aposta = raw_input()\nnumero_sorteado = int(raw_input())\ncor_sorteada = raw_input()\n\npontos = 0\n\nif numero_aposta == numero_sorteado and cor_aposta == cor_sorteada:\n    pontos = 150\nelif numero_aposta == numero_sorteado:\n    pontos = 100\nelif cor_aposta == cor_sorteada:\n    pontos = 50\n    if numero_sorteado > numero_aposta:\n        pontos += 30\n    else:\n        pontos += 50\n\nprint pontos \n",
+      "name": "roleta.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 17,\n      \"vhalstead\": 69.76,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "4fc0dbe4acea10e27e839abd00146a1f",
+  "iid": 6130623324356608,
+  "activity_revision": "1.0.1"
+}

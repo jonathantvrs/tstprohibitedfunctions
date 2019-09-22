@@ -1,0 +1,14 @@
+{
+  "files": {
+    "defensivos.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\ntipo_produto = raw_input()\narea_pulverizada = int(raw_input())\n\nif tipo_produto == \"Fungicida\":\n    quantidade_produto = math.ceil(area_pulverizada / 50.0)\n    preco_produto = quantidade_produto * 320.0\nelif tipo_produto == \"Herbicida\":\n    quantidade_produto = math.ceil(0.3 * area_pulverizada / 1.0)\n    preco_produto = quantidade_produto * 100.0\nelif tipo_produto == \"Inseticida\":\n    quantidade_produto = math.ceil(2.5 * area_pulverizada / 30.0)\n    preco_produto = quantidade_produto * 400.0\n\nprint \"%d %s(s). %.2f reais.\" % (quantidade_produto, tipo_produto, preco_produto)\n",
+      "name": "defensivos.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "929fa849a40e1f563ee333bcad999010",
+  "iid": 5860704963788800,
+  "activity_revision": "1.1.1"
+}

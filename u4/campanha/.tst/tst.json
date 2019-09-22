@@ -1,0 +1,14 @@
+{
+  "files": {
+    "campanha.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npontos, vitorias, empates, derrotas = 0, 0, 0, 0\ngols_pro, gols_contra, saldo_gols = 0, 0, 0\npontos_em_casa, pontos_fora = 0, 0\nfor i in range(10):\n    jogo = raw_input()\n    if jogo[5] == 'c':\n        gols_pro += int(jogo[0])\n        gols_contra += int(jogo[2])\n        if int(jogo[0]) > int(jogo[2]):\n            vitorias += 1\n            pontos += 3\n            pontos_em_casa += 3\n        elif int(jogo[0]) == int(jogo[2]):\n            empates += 1\n            pontos += 1\n            pontos_em_casa += 1\n        else:\n            derrotas += 1                \n    elif jogo[5] == 'f':\n        gols_pro += int(jogo[2])\n        gols_contra += int(jogo[0])\n        if int(jogo[0]) > int(jogo[2]):\n            derrotas += 1\n        elif int(jogo[0]) == int(jogo[2]):\n            empates += 1\n            pontos += 1\n            pontos_fora += 1\n        else:\n            vitorias += 1\n            pontos += 3\n            pontos_fora += 3    \nsaldo_gols = gols_pro - gols_contra\n\nprint \"%dv, %de, %dd\" % (vitorias, empates, derrotas)\nprint \"pontos: %d\" % pontos\nprint \"saldo: %d (%d pro, %d contra)\" % (saldo_gols, gols_pro, gols_contra)\nprint \"pontos em casa: %d\" % pontos_em_casa\nprint \"pontos fora: %d\" % pontos_fora\n\n",
+      "name": "campanha.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "b9cd0bf13742cabd366999f72b03d74b",
+  "iid": 6419622983106560,
+  "activity_revision": "1.0.1"
+}

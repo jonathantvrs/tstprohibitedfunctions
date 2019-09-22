@@ -1,0 +1,14 @@
+{
+  "files": {
+    "parte_fracionaria.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nnumero = float(raw_input())\n\nfracionaria = numero - int(numero)\n\nprint fracionaria\n",
+      "name": "parte_fracionaria.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a675ddaac297bf3e9c5d177b380f0cee",
+  "iid": 5277369451413504,
+  "activity_revision": "1.1.0"
+}

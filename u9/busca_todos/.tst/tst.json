@@ -1,0 +1,19 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\nbusca_matriz = getattr(undertest, 'busca_matriz', None)\n\nclass PublicTests(unittest.TestCase):\n    def test_exemplo_1(self):\n        matriz = [\n            [2, 3, 5, 3, 1],\n            [3, 2, 1, 5, 6],\n            [1, 2, 3, 2, 1],\n        ]\n        assert busca_matriz(matriz, 4) == []\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    },
+    "busca.py": {
+      "category": "answer",
+      "data": "# coding:utf-8\n# jonathan.tavares.silva\n# 118210631\n\ndef busca_matriz(m, e):\n\tlista_posicoes = []\n\tfor i in range(len(m)):\n\t\tfor j in range(len(m[i])):\n\t\t\tif m[i][j] == e:\n\t\t\t\tlista_posicoes.append((i,j))\n\treturn lista_posicoes\n\t\t\t\t\n\t\n",
+      "name": "busca.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "fdbbbec0e5bf0452fdb85f60bdaa11fb",
+  "iid": 5824487966638080,
+  "activity_revision": "1.0.0"
+}

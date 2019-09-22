@@ -1,0 +1,14 @@
+{
+  "files": {
+    "conversao.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnota_um = float(raw_input())\nnota_dois = float(raw_input())\nnota_tres = float(raw_input())\nnota_quatro = float(raw_input())\n\nmedia_anual = (nota_um + nota_dois + nota_tres + nota_quatro) / 4.0\n\nif media_anual < 4:\n    print \"Conceito E.\"\nelif 4 <= media_anual < 6:\n    print \"Conceito D.\"\nelif 6 <= media_anual < 7.5:\n    print \"Conceito C.\"\nelif 7.5 <= media_anual < 9:\n    print \"Conceito B.\"\nelse:\n    print \"Conceito A.\"\n",
+      "name": "conversao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7952cdb515abd39d7c3eaca5b964b0ee",
+  "iid": 4871843873816576,
+  "activity_revision": "1.0.1"
+}

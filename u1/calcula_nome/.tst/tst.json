@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calcula_nome.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nnome = raw_input(\"Nome? \")\nvalor_letra = float(raw_input(\"Letra? R$ \"))\n\norcamento = len(nome) * valor_letra\n\nprint \"Or\u00e7amento: R$ \" + str (orcamento)\n",
+      "name": "calcula_nome.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "b72e70eab7882e450f5daad9a9583aa7",
+  "iid": 4553297927077888,
+  "activity_revision": "1.0.0"
+}

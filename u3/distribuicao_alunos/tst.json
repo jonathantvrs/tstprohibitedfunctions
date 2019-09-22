@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "3\nnão\n1\n",
+      "output": "O aluno deve assistir aula com o prof João.\n"
+    },
+    {
+      "category": "public",
+      "input": "9\nsim\n1\n",
+      "output": "O aluno deve assistir aula com o prof Jorge.\n"
+    }
+  ]
+}

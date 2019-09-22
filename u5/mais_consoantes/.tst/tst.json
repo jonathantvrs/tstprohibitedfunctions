@@ -1,0 +1,18 @@
+{
+  "files": {
+    "mais.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nconta_palavras, quantidade_consoantes, quantidade_vogais = 0, 0, 0\nwhile quantidade_consoantes <= quantidade_vogais:\n    quantidade_vogais, quantidade_consoantes = 0, 0\n    conta_palavras += 1\n   \n    palavra = raw_input().lower()\n    \n    for c in palavra:\n        if c in \"aeiou\":\n            quantidade_vogais += 1\n        else:\n            quantidade_consoantes += 1\n\nprint conta_palavras     \n",
+      "name": "mais.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 6,\n      \"pep8\": 1,\n      \"lloc\": 16,\n      \"vhalstead\": 257.47,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "b70ce3783f8fe3897a6f8d32505f3fb2",
+  "iid": 6059025179344896,
+  "activity_revision": "1.0.1"
+}

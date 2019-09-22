@@ -1,0 +1,14 @@
+{
+  "files": {
+    "perda_tempo_transito.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndia_um = int(raw_input())\ndia_dois = int(raw_input())\ndia_tres = int(raw_input())\ndia_quatro = int(raw_input())\ndia_cinco = int(raw_input())\n\nminutos_perdidos = dia_um + dia_dois + dia_tres + dia_quatro + dia_cinco\nmedia_minutos_dia = minutos_perdidos / 5.0\nporcentagem_da_semana = minutos_perdidos * 100 / 7200.0\nquantidade_episodios_house = minutos_perdidos / 50\n\nprint \"Voc\u00ea perdeu %d min na semana (m\u00e9dia de %.1f min por dia).\" % (minutos_perdidos, media_minutos_dia)\nprint \"Isso significa %.2f%% da sua semana produtiva.\" % porcentagem_da_semana\nprint \"Daria para assistir %d epis\u00f3dio(s) de House.\" % quantidade_episodios_house\n",
+      "name": "perda_tempo_transito.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "370b6ed5b0c1b54f44245518c29b1cb2",
+  "iid": 5023244826443776,
+  "activity_revision": "1.1.1"
+}

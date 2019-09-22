@@ -1,0 +1,14 @@
+{
+  "files": {
+    "celsius_fahrenheit.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva@ccc.ufcg.edu.br\n# matricula: 118210631\n\ncelsius = float(raw_input())\nfahrenheit = celsius * 1.8 + 32\n\nprint fahrenheit\n",
+      "name": "celsius_fahrenheit.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7cf62a303f7a98afc187ebb063a16089",
+  "iid": 6462768177741824,
+  "activity_revision": "1.1.8"
+}

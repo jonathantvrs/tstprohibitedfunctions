@@ -1,0 +1,14 @@
+{
+  "files": {
+    "dv.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nbank_account = raw_input()\n\nsum_digits = 0\nfor i in range(len(bank_account)):\n    sum_digits += int(bank_account[i])\n\nverify_digit = str(sum_digits % 11)\n\nif verify_digit == \"10\":\n    verify_digit = \"X\"\n\nprint \"%s-%s\" % (bank_account, verify_digit)\n",
+      "name": "dv.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "009f8fc15b98ce58eaf748dce2febcb7",
+  "iid": 6742602409836544,
+  "activity_revision": "1.1.0"
+}

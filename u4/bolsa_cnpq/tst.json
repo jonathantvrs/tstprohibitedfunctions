@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "200\n300\n300\n900\n800\n100\n200\n500\n200\n300\n1500\n600\n",
+      "output": "out\n",
+      "type": "io"
+    }
+  ]
+}

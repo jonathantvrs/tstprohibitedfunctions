@@ -1,0 +1,18 @@
+{
+  "files": {
+    "melhor_ataque.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero_de_times = int(raw_input())\nmelhor_ataque, soma_gols = 0, 0\n\n\nif numero_de_times >= 2:\n    for i in range(numero_de_times):\n        times = raw_input()\n        gols = int(raw_input())\n        soma_gols += gols       \n        if gols > melhor_ataque:\n            melhor_ataque = gols\n            melhores_times = times\n        elif gols == melhor_ataque:\n            melhores_times += \"\\n\" + times         \n\n    media_gols = soma_gols / float(numero_de_times)\n\n    print \"Time(s) com melhor ataque (%d gol(s)):\" % melhor_ataque\n    print \"%s\" % melhores_times\n    print \"\"\n    print \"M\u00e9dia de gols marcados: %.1f\" % media_gols\n",
+      "name": "melhor_ataque.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 19,\n      \"vhalstead\": 66.61,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d97f638e85fc3e5ec43e124ddf0e809e",
+  "iid": 5777604057497600,
+  "activity_revision": "1.1.1"
+}

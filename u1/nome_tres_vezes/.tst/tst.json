@@ -1,0 +1,14 @@
+{
+  "files": {
+    "nome_tres_vezes.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nnome = raw_input()\n\nprint nome\nprint nome\nprint nome\n",
+      "name": "nome_tres_vezes.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8459c4f0a93ab6d8c41eb51ccf4b8c2a",
+  "iid": 4736199814021120,
+  "activity_revision": "1.2.0"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "mega_tripla.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero_um = int(raw_input())\nnumero_dois = int(raw_input())\nnumero_tres = int(raw_input())\n\naposta_um = numero_um % 11\naposta_dois = numero_dois % 11\naposta_tres = numero_tres % 11\n\nprint \"%.2d-%.2d-%.2d\" % (aposta_um, aposta_dois, aposta_tres)\n",
+      "name": "mega_tripla.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "162785060698eee3a3dfadbaab315b4f",
+  "iid": 5779271041679360,
+  "activity_revision": "1.0.1"
+}

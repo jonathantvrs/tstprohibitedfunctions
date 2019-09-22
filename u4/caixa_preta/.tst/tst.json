@@ -1,0 +1,18 @@
+{
+  "files": {
+    "caixa_preta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nquantidade_de_medicoes = int(raw_input())\n\nvalidacao = True\nmedicoes = []\ndados_validos = 0\nfor i in range(quantidade_de_medicoes):\n    medicoes = raw_input().split(\" \")\n    peso, combustivel, altitude = int(medicoes[0]), int(medicoes[1]), int(medicoes[2])\n    if validacao:\n        if peso < 0:\n            dados_validos = 3 * i\n            validacao = False\n            print \"dado inconsistente. peso negativo.\"\n        elif combustivel < 0:\n            dados_validos = 3 * i + 1\n            validacao = False\n            print \"dado inconsistente. combust\u00edvel negativo.\"\n        elif altitude < 0:\n            dados_validos = 3 * i + 2\n            validacao = False\n            print \"dado inconsistente. altitude negativa.\"\n        else:\n            dados_validos = quantidade_de_medicoes * 3\nprint dados_validos, \"dados v\u00e1lidos.\"\n",
+      "name": "caixa_preta.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 11,\n      \"pep8\": 0,\n      \"lloc\": 21,\n      \"vhalstead\": 117.21,\n      \"header\": 1\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ea2e054a61e3afb2edc8721419e2e470",
+  "iid": 6440170207313920,
+  "activity_revision": "1.1.1"
+}

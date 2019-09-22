@@ -1,0 +1,14 @@
+{
+  "files": {
+    "votacao.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nvotos_abstencao = int(raw_input())\nvotos_favor = int(raw_input())\nvotos_contra = int(raw_input())\n\ntotal_votos = float(votos_abstencao + votos_favor + votos_contra)\n\npercentual_abstencao = votos_abstencao / total_votos * 100\npercentual_favor = votos_favor / total_votos * 100\npercentual_contra = votos_contra / total_votos * 100\n\nprint \"Resultado da Vota\u00e7\u00e3o\"\nprint\nprint \"%d absten\u00e7\u00f5es (%.2f%%)\" % (votos_abstencao, percentual_abstencao)\nprint \"%d a favor (%.2f%%)\" % (votos_favor, percentual_favor)\nprint \"%d contra (%.2f%%)\" % (votos_contra, percentual_contra)\n",
+      "name": "votacao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "9c84541f1764b3a323927bbd512d52e8",
+  "iid": 5837472814596096,
+  "activity_revision": "1.0.0"
+}

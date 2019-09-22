@@ -1,0 +1,19 @@
+{
+  "files": {
+    "forma_palavra.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nfirst_word, second_word, third_word = raw_input(), raw_input(), raw_input()\n\nformed_word = \"\"\nwords_size = len(first_word)\nfor i in range(words_size):\n    if not first_word[i].isdigit():\n        if first_word[i] > second_word[i] and first_word[i] > third_word[i]:\n            formed_word += first_word[i]\n        if first_word[i] == second_word[i] and first_word[i] == third_word[i]:\n            formed_word += first_word[i]\n    if not second_word[i].isdigit():\n        if second_word[i] > first_word[i] and second_word[i] > third_word[i]:\n            formed_word += second_word[i]\n        if second_word[i] == first_word[i] and second_word[i] == third_word[i] and formed_word[i] != second_word[i]:\n            formed_word += second_word[i]\n    if not second_word[i].isdigit():\n        if third_word[i] > first_word[i] and third_word[i] > second_word[i]:\n            formed_word += third_word[i]\n\nprint formed_word\n",
+      "name": "forma_palavra.py"
+    },
+    "solucao.py": {
+      "category": "answer",
+      "data": "alfabeto = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n',\n'o','p','q','r','s','t','u','v','w','x','y','z']\n\npalavra1 = raw_input()\npalavra2 = raw_input()\npalavra3 = raw_input()\npalavraFormada = ''\nauxiliar = -1\nlistaChar =[]\n\nfor i in range(len(palavra1)):\n    for l in range(len(alfabeto)):\n        if palavra1[i] == alfabeto[l]:\n            if auxiliar < l:\n                auxiliar = l\n                \n        if palavra2[i] == alfabeto[l]:\n            if auxiliar < l:\n                auxiliar = l\n                \n        if palavra3[i] == alfabeto[l]:\n            if auxiliar < l:\n                auxiliar = l\n        \n    listaChar.append(auxiliar)\n    auxiliar = 0\n        \nfor indice in listaChar:\n    palavraFormada += alfabeto[indice]\n    \nprint palavraFormada\n",
+      "name": "solucao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a405777eabec548256b5fe781ee9db95",
+  "iid": 5759146771087360,
+  "activity_revision": "1.0.0"
+}

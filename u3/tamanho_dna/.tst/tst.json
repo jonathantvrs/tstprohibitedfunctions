@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 27.0,\n      \"header\": 3\n    }\n  ]\n}"
+    },
+    "tamanho_dna.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndna_um = raw_input()\ndna_dois = raw_input()\ndna_tres = raw_input()\n\nsequencia_um, sequencia_dois, sequencia_tres = len(dna_um), len(dna_dois), len(dna_tres) \nmenor = \" \"\n\n\nif sequencia_um < sequencia_dois and sequencia_um < sequencia_tres:\n    menor = dna_um\nelif sequencia_dois < sequencia_um and sequencia_dois < sequencia_tres:\n    menor = dna_dois\nelif sequencia_tres < sequencia_um and sequencia_tres < sequencia_dois:\n    menor = dna_tres\nelif sequencia_um == sequencia_dois:\n    menor = dna_um\nelif sequencia_dois == sequencia_tres:\n    menor = dna_dois\nelif sequencia_um == sequencia_tres:\n    menor = dna_um\n\nprint \"%s %d\" % (menor, len(menor))\n",
+      "name": "tamanho_dna.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "646aa14235211c2697ef2e879ef6f3f4",
+  "iid": 5492343671095296,
+  "activity_revision": "1.1.3"
+}

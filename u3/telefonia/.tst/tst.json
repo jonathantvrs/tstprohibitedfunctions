@@ -1,0 +1,14 @@
+{
+  "files": {
+    "telefonia.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nminutos_ligacao = int(raw_input())\n\nvalor_total = 1.00\n\nif minutos_ligacao == 1:\n    valor_total += 0.50\nelif minutos_ligacao == 2:\n    valor_total += 1.00\nelif minutos_ligacao == 3:\n    valor_total += 1.50\nelif minutos_ligacao > 3:\n    if minutos_ligacao % 5 == 0:\n        valor_total += ((minutos_ligacao / 5) * 3.00)\n    else:\n        valor_total += ((minutos_ligacao / 5) * 3.00) + ((minutos_ligacao % 5) * 0.70)\nprint \"R$ %.2f\" % valor_total \n",
+      "name": "telefonia.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ecf83495b2217e6a8d20745ac74ee858",
+  "iid": 4970595070509056,
+  "activity_revision": "1.0.1"
+}

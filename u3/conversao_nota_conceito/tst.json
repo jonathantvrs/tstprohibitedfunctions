@@ -1,0 +1,9 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "6.0\n5.7\n8.6\n7.8\n",
+      "output": "Conceito C.\n"
+    }
+  ]
+}

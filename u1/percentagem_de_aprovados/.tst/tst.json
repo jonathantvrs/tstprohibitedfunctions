@@ -1,0 +1,14 @@
+{
+  "files": {
+    "percentagem_de_aprovados.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nprint \"An\u00e1lise da Turma\"\nprint \"===\"\n\nquantidade_aprovados = int(raw_input(\"N\u00famero de aprovados? \"))\nquantidade_reprovados = int(raw_input(\"N\u00famero de reprovados? \"))\n\ntotal_alunos = quantidade_aprovados + quantidade_reprovados\n\npercentual_aprovados = quantidade_aprovados * 100.0 / total_alunos \npercentual_reprovados = quantidade_reprovados * 100.0 / total_alunos\n\nprint \"---\"\n\nprint \"Total de alunos na turma: %d\" % (total_alunos)\nprint \"Aprovados: %d = %.1f%%\" % (quantidade_aprovados, percentual_aprovados)\nprint \"Reprovados: %d = %.1f%%\" % (quantidade_reprovados, percentual_reprovados)\n",
+      "name": "percentagem_de_aprovados.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "5489d50dffeb0a2ab9c550c59067baeb",
+  "iid": 5807215441084416,
+  "activity_revision": "1.0.1"
+}

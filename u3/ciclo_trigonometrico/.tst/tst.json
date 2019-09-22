@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 9,\n      \"pep8\": 0,\n      \"lloc\": 12,\n      \"vhalstead\": 165.67,\n      \"header\": 4\n    }\n  ]\n}"
+    },
+    "ciclo.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nangulo = float(raw_input())\n\nif angulo > 360:\n    angulo = angulo % 360\n    if 0 < angulo < 90:\n        print \"Quadrante 1\"\n    elif 91 <= angulo < 180:\n        print \"Quadrante 2\"\n    elif 181 <= angulo < 270:\n        print \"Quadrante 3\"\n    elif 271 <= angulo < 360:\n        print \"Quadrante 4\"\n    elif angulo == 0 or angulo == 90 or angulo == 180 or angulo == 270 or angulo == 360:\n        print \"Sobre eixos\"\nelse:\n     if 0 < angulo < 90:\n        print \"Quadrante 1\"\n     elif 91 <= angulo < 180:\n        print \"Quadrante 2\"\n     elif 181 <= angulo < 270:\n        print \"Quadrante 3\"\n     elif 271 <= angulo < 360:\n        print \"Quadrante 4\"\n     elif angulo == 0 or angulo == 90 or angulo == 180 or angulo == 270 or angulo == 360:\n        print \"Sobre eixos\"\n",
+      "name": "ciclo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8fab1c9bbd9dfd89161d6a6c7d9ab0cc",
+  "iid": 6446663828766720,
+  "activity_revision": "1.0.3"
+}

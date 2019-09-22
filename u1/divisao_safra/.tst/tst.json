@@ -1,0 +1,14 @@
+{
+  "files": {
+    "divisao_safra.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nquantidade_de_soja = int(raw_input())\nquantidade_clientes_atacado = int(raw_input())\nquantidade_clientes_varejo = int(raw_input())\n\nquantidade_atacado = quantidade_de_soja / quantidade_clientes_atacado\nquantidade_varejo = float(quantidade_de_soja) % quantidade_clientes_atacado / quantidade_clientes_varejo\n\nprint \"Clientes no atacado = %dkg cada.\" % quantidade_atacado\nprint \"Clientes no varejo = %.2fkg cada.\" % quantidade_varejo \n",
+      "name": "divisao_safra.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a774fc07acef1cc1b0e7f7b3c09a20ea",
+  "iid": 6303506159894528,
+  "activity_revision": "1.1.0"
+}

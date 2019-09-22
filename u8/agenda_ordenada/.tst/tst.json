@@ -1,0 +1,14 @@
+{
+  "files": {
+    "agenda.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nagenda = []\n\nwhile True:\n    nome = raw_input()\n\n    if nome != \"####\":\n        agenda.append(nome)\n        \n        for j in range(len(agenda)):\n            for i in range(len(agenda) - 1):\n                if agenda[i] > agenda[i + 1]:\n                    agenda[i], agenda[i + 1] = agenda[i + 1], agenda[i]\n        for element in agenda:\n            if element == nome:\n                print \"* %s\" % element\n            else:\n                print element\n        print \"----\"    \n    else: \n        break        \n",
+      "name": "agenda.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ee62d1795baca2687ecaf5a8faba1d89",
+  "iid": 5780526614970368,
+  "activity_revision": "1.0.0"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calcula_preco_venda.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ncusto_entrada = float(raw_input())\npercentual_despesas = float(raw_input())\npercentual_lucro = float(raw_input())\npercentual_impostos = float(raw_input())\npercentual_comissoes = float(raw_input())\npercentual_descontos = float(raw_input())\npercentual_encargos = float(raw_input())\n\npreco_venda = ((custo_entrada + (custo_entrada * percentual_despesas / 100) + (custo_entrada * percentual_lucro / 100)) * 100.0) / (100.0 - percentual_impostos - percentual_comissoes - percentual_descontos - percentual_encargos)\n\npreco_inteiro = int(preco_venda) / 1\npreco_decimal = preco_venda % 1\n\nprint \"Pre\u00e7o de venda \u00e9 R$ %.2f (R$ %.2f + R$ %.2f)\" % (preco_venda, preco_inteiro, preco_decimal)\n\n\n",
+      "name": "calcula_preco_venda.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "1f45d3911cc39fdb68e7a8ce7d83249b",
+  "iid": 5562240304414720,
+  "activity_revision": "1.1.0"
+}

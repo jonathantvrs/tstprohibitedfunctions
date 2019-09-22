@@ -1,0 +1,14 @@
+{
+  "files": {
+    "orcamento_contrucao.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npreco_unidade_tijolo = float(raw_input(\"Digite o pre\u00e7o da unidade do tijolo (Em reais): \"))\naltura_tijolo = float(raw_input(\"Digite a altura do tijolo (Em metros): \"))\ncomprimento_tijolo = float(raw_input(\"Digite o comprimento do tijolo (Em metros): \"))\naltura_paredes = float(raw_input(\"Digite a altura das paredes (Em metros): \"))\ncomprimento_paredes = float(raw_input(\"Digite o comprimento das paredes (Em metros): \"))\n\nqtd_tijolos_altura = altura_paredes / altura_tijolo\nqtd_tijolos_largura = comprimento_paredes / comprimento_tijolo\nqtd_tijolos_total = qtd_tijolos_altura * qtd_tijolos_largura\n\npreco_final_tijolos = qtd_tijolos_total * preco_unidade_tijolo\n\nprint \"O n\u00famero total de tijolos \u00e9 %.1f e o or\u00e7amento final \u00e9 de R$ %.1f\" % (qtd_tijolos_total, preco_final_tijolos)\n",
+      "name": "orcamento_contrucao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "de3682a8ead8c5e54776782bab00e0a4",
+  "iid": 5772203874320384,
+  "activity_revision": "1.0.2"
+}

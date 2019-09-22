@@ -1,0 +1,14 @@
+{
+  "files": {
+    "nota_na_final.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nprint \"== Est\u00e1gio 1 ==\"\n\npeso_um = float(raw_input(\"Peso? \"))\nnota_um = float(raw_input(\"Nota? \"))\n\nprint \"== Est\u00e1gio 2 ==\"\n\npeso_dois = float(raw_input(\"Peso? \"))\nnota_dois = float(raw_input(\"Nota? \"))\n\nprint \"== Est\u00e1gio 3 ==\"\n\npeso_tres = float(raw_input(\"Peso? \"))\nnota_tres = float(raw_input(\"Nota? \"))\n\nmedia_parcial = peso_um * nota_um + peso_dois * nota_dois + peso_tres * nota_tres\n\nnota_media_cinco = (media_parcial * 0.6 - 5.0) / 0.4\nnota_media_sete = (media_parcial * 0.6 - 7.0) / 0.4\n\nprint \"== Resultados ==\"\nprint \"M\u00e9dia parcial: %.1f\" % media_parcial\nprint \"Nota na final, pra m\u00e9dia 5.0 = %.1f\" % abs(nota_media_cinco)\nprint \"Nota na final, pra m\u00e9dia 7.0 = %.1f\" % abs(nota_media_sete)\n",
+      "name": "nota_na_final.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "b8cfe73bee93d1a8d0facc30e8c1b9c4",
+  "iid": 5299448435441664,
+  "activity_revision": "1.1.0"
+}

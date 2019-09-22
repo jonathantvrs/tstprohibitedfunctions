@@ -1,0 +1,18 @@
+{
+  "files": {
+    "imprime.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero_criterio = int(raw_input())\n\nconta_numeros_maiores, numero_sequencia = 0, 0\nwhile True:\n    sequencia = raw_input()\n    lista_sequencia = sequencia.split()\n    numero_sequencia += 1\n    \n    if sequencia != \"fim\":\n        for i in range(len(lista_sequencia)):\n            if int(lista_sequencia[i]) > numero_criterio:\n                conta_numeros_maiores += 1\n        \n        if conta_numeros_maiores > (len(lista_sequencia) / 2):\n            print \"sequencia %d: %s\" % (numero_sequencia, sequencia)\n        \n        conta_numeros_maiores = 0\n    else: \n        break\n",
+      "name": "imprime.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 6,\n      \"pep8\": 0,\n      \"lloc\": 14,\n      \"vhalstead\": 85.84,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e3b694b6984d42c9b9de6c7916bb4f13",
+  "iid": 5833056078266368,
+  "activity_revision": "1.0.3"
+}

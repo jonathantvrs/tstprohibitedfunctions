@@ -1,0 +1,14 @@
+{
+  "files": {
+    "espaco_em_disco.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nfirst_user = raw_input() \nfirst_space = int(raw_input()) \nsecond_user = raw_input()\nsecond_space = int(raw_input())\nthird_user = raw_input()\nthird_space = int(raw_input())\n\noccuped_space = (first_space + second_space + third_space) / (1024.0 * 1024.0)\n\nprint \"SPLab - Espa\u00e7o utilizado pelos usu\u00e1rios\"\nprint \"---------------------------------------------\"\nprint \"Nr., Usu\u00e1rio, Espa\u00e7o Utilizado\\n\"\nprint \"1, %s, %.2f MB\" % (first_user, (first_space / (1024 * 1024.0))) \nprint \"2, %s, %.2f MB\" % (second_user, (second_space / (1024 * 1024.0)))\nprint \"3, %s, %.2f MB\" % (third_user, (third_space / (1024 * 1024.0)))\nprint \"\"\nprint \"Espa\u00e7o total ocupado: %.2f MB\" % occuped_space\nprint \"Espa\u00e7o m\u00e9dio ocupado: %.2f MB\" % (occuped_space / 3)\n\n",
+      "name": "espaco_em_disco.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "4126656ab21b6c58248cfdf5e2cc2028",
+  "iid": 5825519249522688,
+  "activity_revision": "1.1.0"
+}

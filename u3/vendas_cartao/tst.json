@@ -1,0 +1,9 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "90\nd\n",
+      "output": "Valor (R$): (D)ébito ou (C)rédito: Valor líquido a receber: 87.30\n"
+    }
+  ]
+}

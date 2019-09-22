@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "220\n1500\n220\n1200\n220\n2200\n",
+      "output": "condutor com maior corrente: 2\nmaior corrente: 183.33 mA\n"
+    },
+    {
+      "category": "public",
+      "input": "110\n370000\n110\n220000\n220\n320000\n",
+      "output": "condutor com maior corrente: 3\nmaior corrente: 687.50 µA\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "serie.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nfor numero in range(1, 102, 2):\n    if numero % 3 == 0 or numero % 5 == 0:\n        print \"*\"\n    else:\n        print numero\n",
+      "name": "serie.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 4,\n      \"pep8\": 0,\n      \"lloc\": 6,\n      \"vhalstead\": 51.89,\n      \"header\": 0\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "eb715268b13b4492d36b85160d1efadd",
+  "iid": 5871287897423872,
+  "activity_revision": "1.1.1"
+}

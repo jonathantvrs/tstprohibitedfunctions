@@ -1,0 +1,14 @@
+{
+  "files": {
+    "area_figuras.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nfrom math import pi\n\ntipo_figura = raw_input()\n\nif tipo_figura == 'c\u00edrculo':\n    raio = float(raw_input())\n    \n    print \"\u00c1rea do c\u00edrculo: %.2f (cm2)\" % (pi * raio ** 2)\nelif tipo_figura == 'quadrado':\n    lado = float(raw_input())\n    \n    print \"\u00c1rea do quadrado: %.2f (cm2)\" % (lado ** 2)\nelif tipo_figura == 'tri\u00e2ngulo':\n    base = float(raw_input())\n    altura = float(raw_input())\n\n    print \"\u00c1rea do tri\u00e2ngulo: %.2f (cm2)\" % (base * altura / 2)\nelif tipo_figura == 'ret\u00e2ngulo':\n    base = float(raw_input())\n    altura = float(raw_input())\n\n    print \"\u00c1rea do ret\u00e2ngulo: %.2f (cm2)\" % (base * altura)\nelse:\n    print \"Digite uma figura correta\"\n",
+      "name": "area_figuras.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "2134bdb8ae22866176f11d7c898d4729",
+  "iid": 4552774645710848,
+  "activity_revision": "1.1.0"
+}

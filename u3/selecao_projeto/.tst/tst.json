@@ -1,0 +1,18 @@
+{
+  "files": {
+    "selecao.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ncre = float(raw_input())\nexperience = int(raw_input())\ninterview = int(raw_input())\n\nif cre < 7 and experience < 6:\n    print \"Candidato eliminado. CRE e experi\u00eancia abaixo do limite.\"\nelif cre >= 7 and experience >= 6:\n    if interview <= 3:\n        print \"Candidato classificado.\"\n    else:\n        print \"Candidato aprovado.\"\n\nif cre < 7 and experience >= 6: \n    print \"Candidato eliminado. CRE abaixo do limite.\"\nelif cre >= 7 and experience < 6:\n    print \"Candidato eliminado. Experi\u00eancia abaixo do limite.\"\n\n\n",
+      "name": "selecao.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 15,\n      \"vhalstead\": 36.0,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "b0f90318cfba9afa5611bd8ae0161fba",
+  "iid": 5255731943047168,
+  "activity_revision": "1.0.1"
+}

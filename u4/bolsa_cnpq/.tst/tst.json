@@ -1,0 +1,18 @@
+{
+  "files": {
+    "bolsa.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nsaldo, gasto, maior, mes = 0, 0, -99999, 0\n\nfor i in range(12):\n    gasto = int(raw_input())\n    saldo += 500 - gasto \n \n    if saldo > maior:\n        maior = saldo\n        mes = i + 1\n    elif saldo == maior:\n        maior = saldo\n        mes = i + 1\n\nif mes == 1: print \"jan\"\nelif mes == 2: print \"fev\"\nelif mes == 3: print \"mar\"\nelif mes == 4: print \"abr\"\nelif mes == 5: print \"mai\"\nelif mes == 6: print \"jun\"\nelif mes == 7: print \"jul\"\nelif mes == 8: print \"ago\"\nelif mes == 9: print \"set\"\nelif mes == 10: print \"out\"\nelif mes == 11: print \"nov\"\nelse: print \"dez\" \n\n\n",
+      "name": "bolsa.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"lloc\": 12,\n      \"header\": 3,\n      \"cc\": 4,\n      \"pep8\": 14,\n      \"vhalstead\": 72.0,\n      \"icheckscore\": 1.0\n    }\n  ],\n  \"problem_vocabulary\": [\n    \"sao\",\n    \"consid\",\n    \"sab\",\n    \"ano\",\n    \"consiste\",\n    \"not\",\n    \"inteiros\",\n    \"sendo\",\n    \"long\",\n    \"gastos\",\n    \"computacao\",\n    \"logo\",\n    \"ter\",\n    \"total\",\n    \"estud\",\n    \"out\",\n    \"outubr\",\n    \"apen\",\n    \"curso\",\n    \"dezembro\",\n    \"inicio\",\n    \"simplicidade\",\n    \"mensais\",\n    \"fazer\",\n    \"pagamentos\",\n    \"valor\",\n    \"ped\",\n    \"ufcg\",\n    \"pass\",\n    \"todos\",\n    \"pagar\",\n    \"desse\",\n    \"bast\",\n    \"acumul\",\n    \"receb\",\n    \"janeiro\",\n    \"gostaria\",\n    \"desp\",\n    \"fornecidos\",\n    \"execucao\",\n    \"tempo\",\n    \"saida\",\n    \"saldo\",\n    \"exemplo\",\n    \"mes\",\n    \"imprimir\",\n    \"mai\",\n    \"cnpq\",\n    \"seletiva\",\n    \"acumulou\",\n    \"conseguiu\",\n    \"tod\",\n    \"escreva\",\n    \"bolsa\",\n    \"cada\",\n    \"tomou\",\n    \"duracao\",\n    \"acumulado\",\n    \"valores\",\n    \"ult\",\n    \"organiz\",\n    \"letr\",\n    \"correspondem\",\n    \"entrada\",\n    \"determin\",\n    \"sido\",\n    \"primeiras\",\n    \"tres\",\n    \"economizando\",\n    \"observ\",\n    \"dev\"\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "1dd0b607c23a0ed600457ee0c304a01d",
+  "iid": 6125186499739648,
+  "activity_revision": "1.0.1"
+}

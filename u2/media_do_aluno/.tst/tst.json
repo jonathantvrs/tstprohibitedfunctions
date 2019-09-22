@@ -1,0 +1,14 @@
+{
+  "files": {
+    "media_do_aluno.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnota_um = float(raw_input())\nnota_dois = float(raw_input())\nnota_tres = float(raw_input())\n\nmedia_ponderada = (nota_um * 0.2 + nota_dois * 0.3 + nota_tres * 0.5) / 1.0\n\nprint media_ponderada  \n",
+      "name": "media_do_aluno.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ae7cc8b5c9f4f26d3be8dfc3f08365f5",
+  "iid": 5021174954196992,
+  "activity_revision": "1.1.1"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "campos_de_futebol.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nprimeira_area = float(raw_input())\nsegunda_area = float(raw_input())\nterceira_area = float(raw_input())\n\nprint \"%.2f\\n%.2f\\n%.2f\" % ((primeira_area / 4000), (segunda_area / 4000), (terceira_area / 4000))\nprint \"%.2f\" % ((primeira_area + segunda_area + terceira_area) / 4000 / 3)\n",
+      "name": "campos_de_futebol.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "07b536239db2daa278194b0054b47a33",
+  "iid": 6117641148170240,
+  "activity_revision": "1.0.1"
+}

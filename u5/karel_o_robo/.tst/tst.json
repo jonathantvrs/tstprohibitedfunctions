@@ -1,0 +1,18 @@
+{
+  "files": {
+    "karel.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nc_x, c_y = 0, 0\nwhile True:\n    comando = raw_input()\n    \n    if comando[2] == \"0\":\n        print \"Fim de jogo\"\n        break\n    else:\n        if comando[0] == \"C\":\n            c_y += int(comando[2])\n        elif comando[0] == \"B\":\n            c_y -= int(comando[2]) \n        elif comando[0] == \"E\":\n            c_x -= int(comando[2]) \n        elif comando[0] == \"D\":\n            c_x += int(comando[2]) \n    \n        if abs(c_y) == (2 * abs(c_x)) and c_x != 0:\n            print \"Parab\u00e9ns, conquista do portal (%d, %d)\" % (c_x, c_y)\n            break\n",
+      "name": "karel.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 9,\n      \"pep8\": 0,\n      \"lloc\": 18,\n      \"vhalstead\": 225.72,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "907b46c34cfa717b19a9cc113a6dd204",
+  "iid": 5272953755271168,
+  "activity_revision": "1.0.1"
+}

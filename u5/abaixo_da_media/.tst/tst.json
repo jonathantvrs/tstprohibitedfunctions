@@ -1,0 +1,14 @@
+{
+  "files": {
+    "adm.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nvalue = raw_input()\n\niterator, avg_values, sum_values = 0, 0, 0\naccumulator = []\nwhile value != \"fim\":\n    iterator += 1.0\n    accumulator.append(value)\n    sum_values += int(value)\n\n    value = raw_input()\n\navg_values = sum_values / iterator\n\nprint \"%.2f\" % avg_values\n\nfor i in range(len(accumulator)):\n    if int(accumulator[i]) < avg_values:\n        print str(i+1) + \" \" + accumulator[i]\n",
+      "name": "adm.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8fe89acaacdb88bc24612a0aa46e0264",
+  "iid": 5671936453509120,
+  "activity_revision": "1.0.1"
+}

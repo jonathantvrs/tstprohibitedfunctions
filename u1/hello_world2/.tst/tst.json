@@ -1,0 +1,14 @@
+{
+  "files": {
+    "hello_world.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nprint \"Hello World!\"\n",
+      "name": "hello_world.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "18d20a4e201d916bee2683d4a6dc77d0",
+  "iid": 6168631637442560,
+  "activity_revision": "1.1.0"
+}

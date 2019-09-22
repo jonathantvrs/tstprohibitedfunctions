@@ -1,0 +1,19 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\nbusca = getattr(undertest, 'busca', None)\n\nclass PublicTests(unittest.TestCase):\n\n   def test_basico(self):\n       seq = [10, 7, 8, 6, 2, 31, 12]\n       assert busca(seq, 8) == 2\n        \nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    },
+    "busca.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndef busca(seq, v):\n    for i in range(len(seq)):\n        if seq[i] == v:\n            return i\n    return -1\n\nseq = [8,9,2,3,6,10,7,9]\nprint busca(seq, 6)\nprint busca(seq, 4)\nprint busca(seq, 9)\n",
+      "name": "busca.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "72928bd5d7ee7bdaf327a8eff2d02bdc",
+  "iid": 5847415173152768,
+  "activity_revision": "1.0.0"
+}

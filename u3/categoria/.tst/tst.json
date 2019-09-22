@@ -1,0 +1,14 @@
+{
+  "files": {
+    "categoria.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnome_jogador = raw_input()\nidade_jogador = int(raw_input())\n\nif 5 <= idade_jogador <= 7:\n    categoria = 'Infantil A'\nelif 8 <= idade_jogador <= 10:\n    categoria = 'Infantil B'\nelif 11 <= idade_jogador <= 13:\n    categoria = 'Juvenil A'\nelif 14 <= idade_jogador <= 17:\n    categoria = 'Juvenil B'\nelif 17 < idade_jogador:\n    categoria = 'Senior'\nelse: \n    categoria = 'N\u00e3o pode competir'\n\nprint \"%s, %d anos, %s.\" % (nome_jogador, idade_jogador, categoria)\n",
+      "name": "categoria.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ce606c4831b43aac532a1234def2d813",
+  "iid": 5237661136584704,
+  "activity_revision": "1.0.1"
+}

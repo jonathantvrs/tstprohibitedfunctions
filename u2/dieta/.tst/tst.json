@@ -1,0 +1,14 @@
+{
+  "files": {
+    "dieta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npeso_perder = float(raw_input())\ntempo_exercicios = float(raw_input())\nconsumo_calorias = float(raw_input())\n\nquantidade_calorias_perder = peso_perder * 7700\nquantidade_calorias_exercicio = tempo_exercicios * 900\n\nquantidade_dias = (quantidade_calorias_perder / (quantidade_calorias_exercicio + 2000 - consumo_calorias)) \n\nprint \"Voc\u00ea precisar\u00e1 de %.2f dias de dieta\" % quantidade_dias\n",
+      "name": "dieta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d8c41eae27d7bf747017be7a3140111f",
+  "iid": 4892269798752256,
+  "activity_revision": "1.0.1"
+}

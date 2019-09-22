@@ -1,0 +1,14 @@
+{
+  "files": {
+    "tinta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\naltura_parede = float(raw_input())\nlargura_parede = float(raw_input())\n\nlitros_tinta = (altura_parede * largura_parede) / 50 * 3.6\n\nprint \"%.2f l\" % litros_tinta\n",
+      "name": "tinta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d262957a5e2a475547bde5a88f18db99",
+  "iid": 5329527299375104,
+  "activity_revision": "1.1.1"
+}

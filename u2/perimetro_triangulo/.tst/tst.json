@@ -1,0 +1,14 @@
+{
+  "files": {
+    "perimetro_triangulo.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\nax = int(raw_input())\nay = int(raw_input())\nbx = int(raw_input())  \nby = int(raw_input())\ncx = int(raw_input())\ncy = int(raw_input())\n\ndistancia_a_b = math.sqrt((bx - ax) ** 2 + (by - ay) ** 2) \ndistancia_a_c = math.sqrt((cx - ax) ** 2 + (cy - ay) ** 2)\ndistancia_b_c = math.sqrt((cx - bx) ** 2 + (cy - by) ** 2)\n\nperimetro_triangulo = distancia_a_b + distancia_a_c + distancia_b_c\n \nprint \"O per\u00edmetro \u00e9 de %.2f\" % perimetro_triangulo\n",
+      "name": "perimetro_triangulo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "c6598fedfab9fa73cf3b6fa1fe5ad065",
+  "iid": 6435294278582272,
+  "activity_revision": "1.1.0"
+}

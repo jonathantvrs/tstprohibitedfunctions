@@ -1,0 +1,18 @@
+{
+  "files": {
+    "aula.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport locale\n\nquantidade_de_lidos = 0\nsoma_de_lidos, media_notas = 0.0, 0.0\nabaixo_da_media, acima_da_media = \"\", \"\"\nnotas = []\nwhile True:\n    if soma_de_lidos < 100.0:\n        numero = float(raw_input())\n        \n        quantidade_de_lidos += 1\n        soma_de_lidos += numero\n        \n        notas.append(numero)\n    else:\n        media_notas = soma_de_lidos / quantidade_de_lidos\n        break\n\nfor i in range(len(notas)):\n    if notas[i] > media_notas:\n        acima_da_media += \"\\n\" + str(locale.format(\"%.2f\", notas[i])) + \" (\" + str(i + 1) + \"o)\"\n    else:\n        abaixo_da_media += \"\\n\" + str(locale.format(\"%.2f\", notas[i])) + \" (\" + str(i + 1) + \"o)\"\n\nprint \"Quantidade de n\u00fameros lidos: %d\" % quantidade_de_lidos\nprint \"Soma dos n\u00fameros lidos: %.2f\" % soma_de_lidos\nprint \"M\u00e9dia = %.2f\" % media_notas\n\nprint \"\\nAbaixo da m\u00e9dia%s\\n\" % abaixo_da_media\n\nprint \"Acima da m\u00e9dia%s\" % acima_da_media\n",
+      "name": "aula.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 7,\n      \"pep8\": 1,\n      \"lloc\": 21,\n      \"vhalstead\": 160.54,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e9ebbe5a03421ee7cc25ad529c212906",
+  "iid": 5261745836785664,
+  "activity_revision": "1.0.2"
+}

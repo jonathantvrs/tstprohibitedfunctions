@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calcula_ingressos_cinema.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*- \n# author: jonathan.tavares.silva\n# matricula: 118210631\nadultos = int(raw_input())\ncriancas = int(raw_input())\npreco_ingresso = float(raw_input())\n\ntotal = preco_ingresso * adultos + preco_ingresso / 2 * criancas\n\nprint \"Total: R$ \" + str(total)\n",
+      "name": "calcula_ingressos_cinema.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "91bf157372da2a4535e450f7aaffadc6",
+  "iid": 5729307687124992,
+  "activity_revision": "1.0.0"
+}

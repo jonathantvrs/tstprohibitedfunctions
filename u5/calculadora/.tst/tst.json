@@ -1,0 +1,18 @@
+{
+  "files": {
+    "calc.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nwhile True:\n    calculadora = raw_input().split()\n    \n    if len(calculadora) == 3: \n        operacao, p_operando, s_operando = int(calculadora[0]), int(calculadora[1]), int(calculadora[2])\n    else:\n        operacao = int(calculadora[0])\n\n    if operacao == 1:\n        print p_operando + s_operando\n    elif operacao == 2:\n        print p_operando - s_operando\n    elif operacao == 3:\n        print p_operando * s_operando\n    elif operacao == 4:\n        if s_operando == 0:\n            print \"Erro: Divis\u00e3o por 0\"\n            break\n        else:\n            print p_operando / s_operando\n    else:\n        break\n    \n",
+      "name": "calc.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 8,\n      \"pep8\": 0,\n      \"lloc\": 16,\n      \"vhalstead\": 213.67,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "5dc2bbdd0a4cf8d2a66cb440819b8001",
+  "iid": 6346293563621376,
+  "activity_revision": "1.0.2"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "area_e_perimetro.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nimport math\n\ndiametro = int(raw_input())\n\nraio = diametro / 2.0\narea  = math.pi * raio ** 2.0\nperimetro = 2.0 * math.pi * raio\n\nprint \"A: %.5f\" %  area\nprint \"P: %.5f\" % perimetro\n",
+      "name": "area_e_perimetro.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "2534841a5404e316cece864821bf450f",
+  "iid": 5447352009621504,
+  "activity_revision": "1.1.1"
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 2,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 89.21,\n      \"header\": 3\n    }\n  ]\n}"
+    },
+    "b2_b10.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\nbinario = raw_input()\ndecimal, operacao = 0, 0\n\nfor i in range(len(binario)):\n    operacao = int(binario[i]) * 2 ** (len(binario) - i - 1)\n    print \"%d * %d = %d\" % (int(binario[i]), (2 ** (len(binario) - i - 1)), operacao)\n    decimal += operacao \nprint \"%d(2) = %d(10)\" % (int(binario), decimal)\n",
+      "name": "b2_b10.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "19fbf21cecd2d0dea3db6e518ac8198b",
+  "iid": 5420819312279552,
+  "activity_revision": "1.0.4"
+}

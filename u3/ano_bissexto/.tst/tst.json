@@ -1,0 +1,18 @@
+{
+  "files": {
+    "ano_bissexto.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nano = int(raw_input())\n\nif ano % 400 == 0 or ano % 4 == 0 and ano % 100 != 0:\n    print \"%d \u00e9 bissexto\" % ano\nelse:\n    print \"%d n\u00e3o \u00e9 bissexto\" % ano\n",
+      "name": "ano_bissexto.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 4,\n      \"pep8\": 0,\n      \"lloc\": 6,\n      \"vhalstead\": 127.44,\n      \"header\": 1\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7e30f20ab589ed5b49f2d3204f05783f",
+  "iid": 6744161885618176,
+  "activity_revision": "1.1.2"
+}

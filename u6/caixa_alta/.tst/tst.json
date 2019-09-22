@@ -1,0 +1,18 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\ncaixa_alta = getattr(undertest, 'caixa_alta', None)\n\nclass PublicTests(unittest.TestCase):\n\n   def test_exemplo(self):\n     assert caixa_alta(\"A primeira letra de cada palavra\") == \"a Primeira Letra De Cada Palavra\"\n\nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n"
+    },
+    "caixa_alta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndef custom_split(lista, parametro):\n    string_aux = \"\"\n    palavras_frase = [] \n\n    for c in lista:\n        if c != \" \":\n            string_aux += c\n        else:\n            palavras_frase.append(string_aux)\n            string_aux = \"\"\n    if string_aux != \" \" or string_aux != parametro:\n        palavras_frase.append(string_aux)\n\n    return palavras_frase\n\ndef caixa_alta(frase):\n    palavras_frase = custom_split(frase, \" \")   \n    new_phrase = \"\"\n    \n    for i in range(len(palavras_frase)):\n        if i + 1 < len(palavras_frase):\n            if len(palavras_frase[i]) == 1:\n                new_phrase += palavras_frase[i].lower() + \" \" \n            else:\n                new_phrase += palavras_frase[i].capitalize() + \" \"\n        else:\n            if len(palavras_frase[i]) == 1:\n                new_phrase += palavras_frase[i].lower()\n            else:\n                new_phrase += palavras_frase[i].capitalize()\n    return new_phrase\n\n                \n",
+      "name": "caixa_alta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7f25b68f4239530ed4074a4e92511373",
+  "iid": 5163451081031680,
+  "activity_revision": "1.0.1"
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "callcenter.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\natendimento_um = int(raw_input())\natendimento_dois = int(raw_input())\natendimento_tres = int(raw_input())\natendimento_quatro = int(raw_input())\natendimento_cinco = int(raw_input())\natendimento_seis = int(raw_input())\natendimento_sete = int(raw_input())\n\ntotal_atendimentos = atendimento_um + atendimento_dois + atendimento_tres + atendimento_quatro + atendimento_cinco + atendimento_seis + atendimento_sete\n\nprint \"Total: %d\" % total_atendimentos \nprint \"M\u00e9dia: %.2f\" % (total_atendimentos / 7.0)\n",
+      "name": "callcenter.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "584aee252461007ac594a0faa7df7833",
+  "iid": 5501790082564096,
+  "activity_revision": "1.0.3"
+}

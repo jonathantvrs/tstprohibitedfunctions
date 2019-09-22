@@ -1,0 +1,14 @@
+{
+  "files": {
+    "dia_normal.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndia_da_semana = raw_input()\nquantidade_de_clientes = int(raw_input())\n\nif dia_da_semana != \"s\u00e1bado\" and dia_da_semana != \"domingo\":\n    if 40 <= quantidade_de_clientes <= 60:\n        print \"normal\"\n    else:\n        print \"at\u00edpico\"\nelse:\n    if quantidade_de_clientes >= 40:\n        print \"normal\"\n    else:\n        print \"at\u00edpico\"\n    \n",
+      "name": "dia_normal.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "2ffc68c5f518df45419c42ae0fdb121e",
+  "iid": 5901728847233024,
+  "activity_revision": "1.0.1"
+}

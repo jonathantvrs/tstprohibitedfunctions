@@ -1,0 +1,14 @@
+{
+  "files": {
+    "vendas.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nvalor = float(raw_input(\"Valor (R$): \"))\ntipo = raw_input(\"(D)\u00e9bito ou (C)r\u00e9dito: \")\n\nif tipo.lower() == \"c\":\n    valor_liquido = valor - (valor * 0.05)\n\n    print \"Valor l\u00edquido a receber: %.2f\" % valor_liquido\nelif tipo.lower() == \"d\":\n    valor_liquido = valor - (valor * 0.03)\n    print \"Valor l\u00edquido a receber: %.2f\" % valor_liquido\nelse:\n    print \"Tipo incorreto. Tente novamente.\" \n",
+      "name": "vendas.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "dc5a84d37d9367fd242407ce91025668",
+  "iid": 5883393027866624,
+  "activity_revision": "1.1.2"
+}

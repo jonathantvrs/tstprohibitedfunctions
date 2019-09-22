@@ -1,0 +1,18 @@
+{
+  "files": {
+    "triangulo.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\na = int(raw_input())\nb = int(raw_input())\nc = int(raw_input())\n\nexp_um = abs(b - c) < a < b + c\nexp_dois = abs(a - c) < b < a + c\nexp_tres = abs(a - b) < c < a + b\n\nif exp_um and exp_dois and exp_tres:\n    print \"triangulo valido. %d\" % (a + b + c)\nelse:\n    print \"triangulo invalido.\" \n\n",
+      "name": "triangulo.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 7,\n      \"vhalstead\": 103.61,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "bf95a27813c1a46069e14a93850ee6c0",
+  "iid": 5876340188250112,
+  "activity_revision": "1.1.1"
+}

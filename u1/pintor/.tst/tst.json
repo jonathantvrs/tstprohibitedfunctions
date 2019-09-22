@@ -1,0 +1,14 @@
+{
+  "files": {
+    "pintor.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\naltura = float(raw_input())\nlargura = float(raw_input())\n\ncusto = altura * largura * 20.00\n\nprint \"R$ %.2f\" % custo\n",
+      "name": "pintor.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "c8fef308a1cbcba0625afe9a5396b78b",
+  "iid": 5540442909179904,
+  "activity_revision": "2.0.1"
+}

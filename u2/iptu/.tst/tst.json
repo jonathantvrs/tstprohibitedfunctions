@@ -1,0 +1,14 @@
+{
+  "files": {
+    "iptu.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\narea_construida_casa = float(raw_input(\"\u00c1rea constru\u00edda? \"))\naliquota = float(raw_input(\"Al\u00edquota? \"))\n\niptu = area_construida_casa * aliquota + 35\niptu_quota_unica = iptu - (iptu * 0.25)\niptu_seis_parcelas = iptu - (iptu * 0.05)\n\nprint \"IPTU: R$ %.2f\" % iptu\nprint \"\"\nprint \"Pagamento:\"\nprint \"1. Quota \u00fanica. R$ %.2f\" % iptu_quota_unica\nprint \"2. Em 6 parcelas. Total: R$ %.2f\" % iptu_seis_parcelas\nprint \"   6 x R$ %.2f\" % (iptu_seis_parcelas / 6.0)\nprint \"3. Em 10 parcelas. Total: R$ %.2f\" % iptu\nprint \"   10 x R$ %.2f\" % (iptu / 10.0)\n",
+      "name": "iptu.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "17bd51f7f84ab658fccd3d65023faba4",
+  "iid": 6430619709997056,
+  "activity_revision": "1.1.1"
+}

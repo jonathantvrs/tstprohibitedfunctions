@@ -1,0 +1,14 @@
+{
+  "files": {
+    "hipotenusa.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\ncateto_one = float(raw_input(\"Medida do Cateto 1? \"))\ncateto_two = float(raw_input(\"Medida do Cateto 2? \"))\n\nprint \"Medida da Hipotenusa: %.2f\" % (math.sqrt(cateto_one ** 2 + cateto_two ** 2))\n",
+      "name": "hipotenusa.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "35e1d003391c2ba9ace58e0525abba36",
+  "iid": 5240733212606464,
+  "activity_revision": "1.1.3"
+}

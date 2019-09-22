@@ -1,0 +1,14 @@
+{
+  "files": {
+    "limite.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nlimite_superior = float(raw_input())\nnivel_atual = float(raw_input())\n\nwhile nivel_atual < limite_superior:\n    evento = raw_input().split()\n    \n    if evento[0] == \"chuva\":\n        nivel_atual += int(evento[1])\n    elif evento[0] == \"afluente\":\n        nivel_atual += int(evento[1])\n    else:\n        if (nivel_atual - int(evento[1])) >= 0:\n            nivel_atual -= int(evento[1])    \n\nif nivel_atual >= limite_superior:\n    print \"A\u00e7ude passou a liberar \u00e1gua.\"\n    print \"N\u00edvel: %.2f\" % nivel_atual\n",
+      "name": "limite.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d94bfe5210b8a0dbbd1141417beeb71c",
+  "iid": 4933125272502272,
+  "activity_revision": "1.0.1"
+}

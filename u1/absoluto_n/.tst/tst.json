@@ -1,0 +1,14 @@
+{
+  "files": {
+    "absoluto_n.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero = int(raw_input())\n\nprint abs(numero)\n\n",
+      "name": "absoluto_n.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "07f6ffae0b28d52082c8ef3ddc96f3aa",
+  "iid": 6442205619159040,
+  "activity_revision": "1.0.0"
+}

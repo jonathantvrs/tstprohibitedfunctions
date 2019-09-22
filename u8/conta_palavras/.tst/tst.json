@@ -1,0 +1,19 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\nconta_palavras = getattr(undertest, 'conta_palavras', None)\n\nclass PublicTests(unittest.TestCase):\n\n   def test_basico(self):\n       assert conta_palavras(5, \"zero:um:dois:tres:quatro:cinco\") == 2\n        \nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    },
+    "conta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndef my_split(seq, parametro):\n    elements = []\n    string_aux = \"\"\n\n    for element in seq:\n        if element != parametro:\n            string_aux += element\n        else:\n            elements.append(string_aux)\n            string_aux = \"\"\n    if string_aux != \"\" or string_aux != parametro:\n        elements.append(string_aux)\n    return elements\n\ndef conta_palavras(k, palavras): \n    lista_palavras = my_split(palavras, \":\")\n\n    quantidade_palavras_maior_que_k = 0\n    for i in range(len(lista_palavras)):\n        if len(lista_palavras[i]) >= k:\n            quantidade_palavras_maior_que_k += 1\n\n    return quantidade_palavras_maior_que_k\n\nprint conta_palavras(5, \"zero:um:dois:tres:quatro:cinco\")\n",
+      "name": "conta.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "523eb415e6dc98b15cb66d617e969f20",
+  "iid": 6338677156347904,
+  "activity_revision": "1.0.0"
+}

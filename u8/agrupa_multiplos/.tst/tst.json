@@ -1,0 +1,19 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\nagrupa_multiplos = getattr(undertest, 'agrupa_multiplos', None)\n\nclass PublicTests(unittest.TestCase):\n\n   def test_adicional_1(self):\n        seq = [6, 15, 12, 6, 8, 3, 25, 14, 1, 10, 7]\n\n        agrupa_multiplos(seq, 5)\n        assert seq == [15, 25, 10, 6, 12, 6, 8, 3, 14, 1, 7]\n\n        agrupa_multiplos(seq, 2)\n        assert seq == [10, 6, 12, 6, 8, 14, 15, 25, 3, 1, 7]\n\n        \nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    },
+    "agrupa.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndef agrupa_multiplos(seq, k):\n    for i in range(len(seq) - 1):\n        for j in range(len(seq) - 1):\n            if seq[j] % k != 0 and seq[j + 1] % k == 0:\n                seq[j], seq[j + 1] = seq[j + 1], seq[j]\n\na = [6,15,12,6,8,3,25,14,1,10,7]\nagrupa_multiplos(a, 5)\n\nprint a\n",
+      "name": "agrupa.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "12ea2e0d048438eed397d797650f5d9e",
+  "iid": 5771920641359872,
+  "activity_revision": "1.0.0"
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 7,\n      \"pep8\": 0,\n      \"lloc\": 25,\n      \"vhalstead\": 129.66,\n      \"header\": 3\n    }\n  ]\n}"
+    },
+    "gratificacao.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ncodigo = int(raw_input())\n\nif codigo == 1:\n    print \"Dever\u00e1 receber em dezembro R$ 25000.00.\"\nelif codigo == 2:\n    print \"Dever\u00e1 receber em dezembro R$ 15000.00.\"\nelif codigo == 3:\n    dias_faltosos = int(raw_input())\n    if dias_faltosos > 0:\n        gratificacao = (235 - dias_faltosos) * 2.0\n        salario = gratificacao + 8000.00\n    else:\n        gratificacao = 500.00\n        salario = gratificacao + 8000.00\n    print \"Valor da gratifica\u00e7\u00e3o R$ %.2f.\" % gratificacao\n    print \"Dever\u00e1 receber em dezembro R$ %.2f.\" % salario\nelif codigo == 4:\n    dias_faltosos = int(raw_input())\n    if dias_faltosos > 0:\n        gratificacao = (235 - dias_faltosos) * 1.0\n        salario = gratificacao + 5000.00\n    else:\n        gratificacao = 300.00\n        salario = gratificacao + 5000.00\n    print \"Valor da gratifica\u00e7\u00e3o R$ %.2f.\" % gratificacao\n    print \"Dever\u00e1 receber em dezembro R$ %.2f.\" % salario\nelif codigo == 5:\n    dias_faltosos = int(raw_input())\n    if dias_faltosos > 0:\n        gratificacao = (235 - dias_faltosos) * 0.7\n        salario = gratificacao + 2800.00\n    else:\n        gratificacao = 200.00\n        salario = gratificacao + 2800.00   \n    print \"Valor da gratifica\u00e7\u00e3o R$ %.2f.\" % gratificacao\n    print \"Dever\u00e1 receber em dezembro R$ %.2f.\" % salario\n",
+      "name": "gratificacao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e7fdfb71050d01faee65d2587ac945e3",
+  "iid": 5828975054028800,
+  "activity_revision": "1.0.2"
+}

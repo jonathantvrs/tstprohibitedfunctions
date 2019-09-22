@@ -1,0 +1,14 @@
+{
+  "files": {
+    "controle.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npeso_antes = float(raw_input())\npeso_depois = float(raw_input())\n\npercentagem_agua = (peso_antes - peso_depois) / peso_antes * 100.0\n\nprint \"%.1f%% do peso do produto \u00e9 de \u00e1gua congelada.\" % percentagem_agua\n\nif percentagem_agua >= 10:\n    print \"Produto n\u00e3o conforme.\"\nelif percentagem_agua < 5:\n    print \"Produto qualis A.\"\nelse:\n    print \"Produto em conformidade.\" \n",
+      "name": "controle.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "36c76dab3ac092b2631b540d456354e7",
+  "iid": 4840994063253504,
+  "activity_revision": "1.0.1"
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "grep.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\ndef my_in(parametro, lista):\n    for i in range(len(lista)):\n        if i + 2 < len(lista):\n            if parametro == lista[i] + lista[i + 1] + lista[i + 2]:\n                return True\n    return False\n\n\n\npalavra = raw_input()\n\nnumero_frases = int(raw_input())\n\nfor i in range(numero_frases):\n    frase = raw_input()\n    \n    if my_in(palavra, frase):\n        print frase\n    \n    \n",
+      "name": "grep.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 6,\n      \"vhalstead\": 4.75,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d3ba2cacac10a202d75ddf806a3f7b6a",
+  "iid": 6703606724034560,
+  "activity_revision": "2.0.1"
+}

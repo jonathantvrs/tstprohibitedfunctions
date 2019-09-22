@@ -1,0 +1,14 @@
+{
+  "files": {
+    "salario.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nsalario_bruto = float(raw_input())\nhoras_trabalhadas = int(raw_input())\n\nhora_bruta = salario_bruto / horas_trabalhadas\n\ndesconto_ir = salario_bruto * 0.11\ndesconto_inss = salario_bruto * 0.08\ndesconto_sindicato = salario_bruto * 0.05\n\ndesconto_total = desconto_ir + desconto_inss + desconto_sindicato\n\nsalario_liquido = salario_bruto - desconto_total\nhora_liquida = salario_liquido / horas_trabalhadas\n\nprint \"Sal\u00e1rio Bruto =\", salario_bruto\nprint \"Hora Bruta =\", hora_bruta\nprint \"Desconto IR =\", desconto_ir\nprint \"Desconto INSS =\", desconto_inss\nprint \"Desconto Sindicato =\", desconto_sindicato\nprint \"Sal\u00e1rio L\u00edquido =\", salario_liquido\nprint \"Hora L\u00edquida =\", hora_liquida\n",
+      "name": "salario.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "727096ef4e08039b18bf4e6b6c4ed231",
+  "iid": 5712041247506432,
+  "activity_revision": "1.0.3"
+}

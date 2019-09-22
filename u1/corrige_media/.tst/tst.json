@@ -1,0 +1,14 @@
+{
+  "files": {
+    "corrige_media.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210781\nnota1 = 10\nnota2 = 5\n\nmedia = (nota1 + nota2) / 2.0\n\nprint \"Nota 1: %4.1f\" % nota1\nprint \"Nota 2: %4.1f\" % nota2\nprint \"M\u00e9dia : %4.1f\" % media\n",
+      "name": "corrige_media.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "7eed16294c47041da00fb4821e88acae",
+  "iid": 6365031901954048,
+  "activity_revision": "1.1.0"
+}

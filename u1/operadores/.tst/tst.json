@@ -1,0 +1,14 @@
+{
+  "files": {
+    "operadores.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\na = int(raw_input())\nb = int(raw_input())\n\nprint \"===== Operadores =====\"\nprint \"A =\", a\nprint \"B =\", b\nprint \"Adi\u00e7\u00e3o =\", a + b\nprint \"Subtra\u00e7\u00e3o =\", a - b\nprint \"Multiplica\u00e7\u00e3o =\", a * b\nprint \"Divis\u00e3o =\", a / b\nprint \"Resto =\", a % b\nprint \"Exponencia\u00e7\u00e3o =\", a ** b\nprint \"Nega\u00e7\u00e3o de A =\", a * -1\nprint \"A \u00e9 igual a B?\", a == b\nprint \"A \u00e9 diferente de B?\", a != b\nprint \"A \u00e9 maior que B?\", a > b\nprint \"B \u00e9 maior que A?\", b > a\nprint \"A \u00e9 menor ou igual a B?\", b >= a\n",
+      "name": "operadores.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "772ba06052be4f4881edcec251e03ad4",
+  "iid": 5850201889701888,
+  "activity_revision": "1.2.0"
+}

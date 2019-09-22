@@ -1,0 +1,14 @@
+{
+  "files": {
+    "construcao_de_condominio.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nlado_um = float(raw_input())\nlado_dois = float(raw_input())\narea_casa = float(raw_input())\n\narea_terreno = lado_um * lado_dois\nquantidade_casas_terreno = area_terreno / area_casa\n\nprint \"%d casa(s) pode(m) ser constru\u00edda(s) no terreno.\" % quantidade_casas_terreno\n",
+      "name": "construcao_de_condominio.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "0eb410fd10d01af55d4d8295074f8fde",
+  "iid": 5068215986159616,
+  "activity_revision": "1.1.0"
+}

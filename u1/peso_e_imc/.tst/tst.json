@@ -1,0 +1,14 @@
+{
+  "files": {
+    "peso_e_imc.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npeso = float(raw_input())\naltura = float(raw_input())\n\nimc = peso / altura ** 2\npeso_ganhar_ou_perder = (24.9 - imc) * altura ** 2 \n\nprint \"IMC atual = %.2f\" % imc\nprint \"Peso a ser ganho/perdido = %.2f\" % peso_ganhar_ou_perder \n",
+      "name": "peso_e_imc.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "443d1f2735352149c29e00e1015547e9",
+  "iid": 5281524194738176,
+  "activity_revision": "2.0.0"
+}

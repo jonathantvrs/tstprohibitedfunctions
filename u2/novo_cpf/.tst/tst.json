@@ -1,0 +1,14 @@
+{
+  "files": {
+    "novo_cpf.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nprimeira_parte = int(raw_input())\nsegunda_parte = int(raw_input())\nterceira_parte = int(raw_input())\n\ndigito_um = terceira_parte / 100 % 10\ndigito_dois = terceira_parte / 10 % 10\ndigito_tres = terceira_parte / 1 % 10\n\nquarta_parte = digito_um + digito_dois + digito_tres\n\nprint \"%.3d.%.3d.%.3d-%.2d\" % (primeira_parte, segunda_parte, terceira_parte, quarta_parte)    \n",
+      "name": "novo_cpf.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "5105b782a15f0e029b6913e48ba105ca",
+  "iid": 5326669736837120,
+  "activity_revision": "1.0.0"
+}

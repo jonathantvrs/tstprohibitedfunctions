@@ -1,0 +1,14 @@
+{
+  "files": {
+    "solucao.py": {
+      "category": "answer",
+      "data": "# coding: utf-8\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nveiculo = raw_input()\npedagio = 0\nfrase_valor = \"Valor a pagar: R$\"\n\nif veiculo == \"Autom\u00f3vel utilit\u00e1rio\":\n    pedagio = 11.40\n    \n    print \"%s %.2f.\" % (frase_valor, pedagio)\nelif veiculo == \"\u00d4nibus\":\n    eixos = int(raw_input())\n    pedagio = eixos * 11.40\n    \n    print \"%s %.2f.\" % (frase_valor, pedagio)\nelif veiculo == \"Caminh\u00e3o\":\n    eixos = int(raw_input())\n    pedagio = eixos * 9.60\n    \n    print \"%s %.2f.\" % (frase_valor, pedagio)\nelif veiculo == \"Motocicleta\":\n    pedagio = 5.70\n\n    print \"%s %.2f.\" % (frase_valor, pedagio)\nelse:\n    print \"Ve\u00edculo n\u00e3o cadastrado.\"\n",
+      "name": "solucao.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ca0cdfc32e28fdedab54ef4521b827f4",
+  "iid": 5594811021131776,
+  "activity_revision": "1.0.0"
+}

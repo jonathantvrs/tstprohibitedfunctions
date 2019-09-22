@@ -1,0 +1,14 @@
+{
+  "files": {
+    "caixas_de_ceramica.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ncapacidade_de_revestimento = float(raw_input(\"Capacidade de revestimento? \"))\n\nprint \"\\n== Dados do v\u00e3o a revestir ==\"\n\ncomprimento_do_vao = float(raw_input(\"Comprimento? \"))\nlargura_do_vao = float(raw_input(\"Largura? \"))\naltura_do_vao = float(raw_input(\"Altura? \"))\n\narea_total = (altura_do_vao * comprimento_do_vao) * 4 + largura_do_vao * comprimento_do_vao\nnumero_de_caixas = area_total / capacidade_de_revestimento\n\nprint \"\\n== Resultados ==\"\nprint \"\u00c1rea total a revestir: %.1f m2\" % area_total\nprint \"N\u00famero de caixas: %d\" % numero_de_caixas\n",
+      "name": "caixas_de_ceramica.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "cd76dfec6ed8a01885ac2d7efab47d5b",
+  "iid": 5132431854141440,
+  "activity_revision": "1.1.0"
+}

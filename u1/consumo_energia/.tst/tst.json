@@ -1,0 +1,14 @@
+{
+  "files": {
+    "consumo_energia.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npotencia_equipamento = int(raw_input())\ntempo_ligado = int(raw_input())\n\nconsumo = (potencia_equipamento / 1000.0) * (tempo_ligado / 60.0)\n\nprint str(consumo) + \" kWh\"\n",
+      "name": "consumo_energia.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "10ceb3fcd06406d1e3323ee958fd1105",
+  "iid": 5629049795772416,
+  "activity_revision": "1.0.0"
+}

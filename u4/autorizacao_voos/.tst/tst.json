@@ -1,0 +1,18 @@
+{
+  "files": {
+    "autorizacao.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ntempo_disponivel = int(raw_input())\nquantidade_de_avioes = int(raw_input())\n\nvoos_autorizados = 0\n\nfor aviao in range(quantidade_de_avioes):\n    tempo_aviao = int(raw_input())\n    if (tempo_disponivel - tempo_aviao) >= 0:\n        tempo_disponivel -= tempo_aviao \n    \n        if tempo_disponivel >= 0:\n            voos_autorizados += 1\n\nprint \"%d voo(s) autorizados.\" % voos_autorizados\n",
+      "name": "autorizacao.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 51.89,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "420b777961f8d9a09f683f2aaeac72af",
+  "iid": 5123343099363328,
+  "activity_revision": "1.1.4"
+}

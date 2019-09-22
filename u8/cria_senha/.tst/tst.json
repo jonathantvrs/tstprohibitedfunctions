@@ -1,0 +1,14 @@
+{
+  "files": {
+    "senha.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nLETRAS_SENHA_FORTE = ['o', 'i', 'l', 'e', 'a', 'b', 't']\nNUMEROS_SENHA_FORTE = ['0', '1', '1', '3', '4', '6', '7']\n\ndef my_in(p, l):\n    for e in l:\n        if e == p:\n            return True\n    return False\n\ndef retornaIndicePrimeiraOcorrencia(p, l):\n    for i in range(len(l)):\n        if l[i] == p:\n            return i\n\ndef criaSenhaFraca(palavra):\n    print \"((\" + palavra + \"))\"\n\n\ndef criaSenhaForte(palavra):\n    senha_forte = \"\"\n\n    for c in palavra:\n        if my_in(c.lower(), LETRAS_SENHA_FORTE):\n            indice_letra = retornaIndicePrimeiraOcorrencia(c.lower(), LETRAS_SENHA_FORTE)\n            senha_forte += NUMEROS_SENHA_FORTE[indice_letra]\n        else:\n            senha_forte += c\n\n    print \"((\" + senha_forte + \"))\"\n\ndef main():\n    while True:\n        entrada = raw_input()\n\n        if entrada == \"***\":\n            break\n        else:\n            entrada = entrada.split()\n            senha = entrada[0]\n            forca_senha = entrada[1]\n\n            if forca_senha == \"fraco\":\n                criaSenhaFraca(senha)\n            elif forca_senha == \"forte\":\n                criaSenhaForte(senha)\n\nmain()\n",
+      "name": "senha.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "aa23e4ddf8c951b0e9f3087b877d0bd7",
+  "iid": 5887982200422400,
+  "activity_revision": "1.0.0"
+}

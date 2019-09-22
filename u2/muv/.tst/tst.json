@@ -1,0 +1,14 @@
+{
+  "files": {
+    "mvu.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ninitial_space = float(raw_input(\"Posi\u00e7\u00e3o inicial? \"))\ninitial_velocity = float(raw_input(\"Velocidade inicial? \"))\ntime = float(raw_input(\"Tempo? \"))\naceleration = float(raw_input(\"Acelera\u00e7\u00e3o? \"))\n\nfinal_velocity = initial_velocity + aceleration * time\nfinal_space = initial_space + initial_velocity * time + (aceleration * time ** 2) / 2\navg_velocity = initial_velocity + (aceleration * time) / 2 \n\nprint \"\\nDados da quest\u00e3o\"\nprint \"================\"\nprint \"   Posi\u00e7\u00e3o inicial: %.2f m\" % initial_space\nprint \"Velocidade inicial: %.2f m/s\" % initial_velocity\nprint \"        Acelera\u00e7\u00e3o: %.2f m/s2\" % aceleration\nprint \"             Tempo: %.2f s\" % time\nprint \"  Velocidade final: %.2f m/s\" % final_velocity\nprint \"  Velocidade m\u00e9dia: %.2f m/s\" % avg_velocity\nprint \"     Posi\u00e7\u00e3o final: %.2f m\" % final_space\n\n",
+      "name": "mvu.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a5f2ee5f8e77ca5b2f5fd03bacaf0db1",
+  "iid": 5818269344727040,
+  "activity_revision": "1.1.0"
+}

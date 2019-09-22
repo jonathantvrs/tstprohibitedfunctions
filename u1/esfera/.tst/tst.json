@@ -1,0 +1,14 @@
+{
+  "files": {
+    "esfera.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\nraio = float(raw_input())\n\nprint \"%.2f\" % ((4 * math.pi * raio ** 3) / 3)\n",
+      "name": "esfera.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8343125174150845b24ec3c23aa258c0",
+  "iid": 5083397487591424,
+  "activity_revision": "1.0.0"
+}

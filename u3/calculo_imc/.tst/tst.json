@@ -1,0 +1,14 @@
+{
+  "files": {
+    "calculo_imc.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npeso = float(raw_input())\naltura = float(raw_input())\n\nimc = peso / (altura ** 2)\n\nif imc < 16:\n    classificacao = 'Magreza grave'\nelif 16 <= imc < 17:\n    classificacao = 'Magreza moderada'\nelif 17 <= imc < 18.5:\n    classificacao = 'Magreza leve'\nelif 18.5 <= imc < 25:\n    classificacao = 'Saud\u00e1vel'\nelif 25 <= imc < 30:\n    classificacao = 'Sobrepeso'\nelif 30 <= imc < 35:\n    classificacao = 'Obesidade Grau I'\nelif 35 <= imc < 40:\n    classificacao = 'Obesidade Grau II (severa)'\nelse:\n    classificacao = 'Obesidade Grau III (m\u00f3rbida)'\n\nprint \"IMC: %.1f - %s\" % (imc, classificacao)\n",
+      "name": "calculo_imc.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "42a8d6db596b2515a52670b9d0e5c3fa",
+  "iid": 5678674552553472,
+  "activity_revision": "1.0.7"
+}

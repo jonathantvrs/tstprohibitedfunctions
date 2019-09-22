@@ -1,0 +1,18 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "8\n7\n2\n",
+      "name": "exemplo",
+      "output": "Candidato classificado.\n",
+      "type": "io"
+    },
+    {
+      "category": "public",
+      "input": "8.9\n7\n4\n",
+      "name": "exemplo2",
+      "output": "Candidato aprovado.\n",
+      "type": "io"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "perimento_retangulo.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nbase = int(raw_input())\naltura = int(raw_input())\n\nperimetro = 2.0 * (base / 10.0 + altura / 10.0)\n\nprint \"O per\u00edmetro resultante (em cm) \u00e9 %.2f.\" % perimetro\n",
+      "name": "perimento_retangulo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "93c046949242e6f636bdf0e1bdbeebbf",
+  "iid": 5248103376486400,
+  "activity_revision": "1.0.1"
+}

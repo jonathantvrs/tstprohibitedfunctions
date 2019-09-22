@@ -1,0 +1,14 @@
+{
+  "files": {
+    "fahrenheit_celsius.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva@ccc.ufcg.edu.br\n# matricula: 118210631\n\nfahrenheit = float(raw_input())\ncelsius = (fahrenheit - 32) * 5 / 9 \nkelvin = celsius + 273.15\n\nprint \"Fahrenheit: %.3f F\\nCelsius: %.3f C\\nKelvin: %.3f K\" % (fahrenheit, celsius, kelvin)\n",
+      "name": "fahrenheit_celsius.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "678e4537020df8e5807b0c1a368cc5b5",
+  "iid": 5251357485301760,
+  "activity_revision": "1.1.2"
+}

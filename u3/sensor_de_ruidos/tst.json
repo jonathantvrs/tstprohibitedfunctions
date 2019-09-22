@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "sxas\n23\n",
+      "output": "Perturbação Detectada!\n"
+    },
+    {
+      "category": "public",
+      "input": "\n12\n",
+      "output": "Condomínio em Paz.\n"
+    }
+  ]
+}

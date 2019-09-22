@@ -1,0 +1,18 @@
+{
+  "files": {
+    "divisores.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero = int(raw_input())\n\nfor i in range(1, numero):\n    if numero % i == 0:\n        print i\n",
+      "name": "divisores.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 5,\n      \"vhalstead\": 15.51,\n      \"header\": 0\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e5c04f35b508932189d7f056bfbcf432",
+  "iid": 5842104769052672,
+  "activity_revision": "1.1.0"
+}

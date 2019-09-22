@@ -1,0 +1,14 @@
+{
+  "files": {
+    "primeiro_e_ultimo.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nnumero = int(raw_input())\n\nprimeiro_digito = numero / 1000 % 10 \nultimo_digito = numero / 1 % 10\n\nprint \"%d %d\" % (primeiro_digito, ultimo_digito)\n",
+      "name": "primeiro_e_ultimo.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e0cee122fb1c7f6f6b23114bb0957d11",
+  "iid": 4986737604427776,
+  "activity_revision": "1.0.2"
+}

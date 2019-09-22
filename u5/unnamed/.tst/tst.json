@@ -1,0 +1,18 @@
+{
+  "files": {
+    "unnamed.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndado = raw_input()\n\nconta_elementos, numero_conjunto, mais_elementos = 0, 0, 0\nwhile dado != \"fim\":\n    if int(dado) < 0:\n        numero_conjunto += 1\n        if conta_elementos > mais_elementos:\n            mais_elementos = conta_elementos\n            # conta_elementos = 0\n        elif conta_elementos == mais_elementos:\n            numero_conjunto = 1\n        conta_elementos = 0       \n    else:\n        conta_elementos += 1\n\n    dado = raw_input()\n\nif numero_conjunto > 0:\n    print \"Conjunto %d - %d elemento(s)\" % (numero_conjunto, mais_elementos)    \n",
+      "name": "unnamed.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 7,\n      \"pep8\": 1,\n      \"lloc\": 19,\n      \"vhalstead\": 85.84,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "0b6f51f3d831edfcd5dfc03dcd3442da",
+  "iid": 5872950016212992,
+  "activity_revision": "1.0.1"
+}

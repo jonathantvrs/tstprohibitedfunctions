@@ -1,0 +1,14 @@
+{
+  "files": {
+    "reajuste.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nvalor_atual = float(raw_input(\"Valor atual? \"))\nnovo_valor = float(raw_input(\"Novo valor? \"))\n\nreajuste = (novo_valor - valor_atual) * 100.0 / valor_atual \n\nprint \"Reajuste de %.1f%%\" % reajuste\n",
+      "name": "reajuste.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "babec4345e1b66f4f70ee5281e669d0f",
+  "iid": 4986144999604224,
+  "activity_revision": "1.1.0"
+}

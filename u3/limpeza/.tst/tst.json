@@ -1,0 +1,18 @@
+{
+  "files": {
+    "limpeza.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\"\"\"\ndef troca(valor):\n    v = list(str(valor))\n    \n    for i in range(len(v)):\n        if v[i] == '.':\n            v[i] \n    return str(v)\n\"\"\"\n\nservico = int(raw_input())\n\nif servico == 1:\n    tamanho_tanque = int(raw_input())\n    custo_limpeza = 80 * tamanho_tanque\n    print \"R$ \" + str(custo_limpeza) + \",00\"\n    if custo_limpeza >= 200:\n        print \"Brinde!\"\nelif servico == 2:\n    tamanho_tanque = int(raw_input())\n    custo_limpeza = 50 * tamanho_tanque\n    print \"R$ \" + str(custo_limpeza) + \",00\"\n    if custo_limpeza >= 200:\n        print \"Brinde!\"\nelif servico == 3:\n    print \"R$ 50,00\"\n",
+      "name": "limpeza.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 4,\n      \"pep8\": 0,\n      \"lloc\": 12,\n      \"vhalstead\": 66.61,\n      \"header\": 2\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "ffa61deeafaf9ecedf6122ee3582a2b3",
+  "iid": 6465569368834048,
+  "activity_revision": "1.0.3"
+}

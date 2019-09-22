@@ -1,0 +1,18 @@
+{
+  "files": {
+    "concurso.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nescrita_um = float(raw_input())\ndidatica_um = float(raw_input())\ntitulacao_um = float(raw_input())\nidade_um = int(raw_input())\nescrita_dois = float(raw_input())\ndidatica_dois = float(raw_input())\ntitulacao_dois = float(raw_input())\nidade_dois = int(raw_input())\n\nmedia_um = (escrita_um * 0.3 + didatica_um * 0.4 + titulacao_um * 0.3) / 1.0\nmedia_dois = (escrita_dois * 0.3 + didatica_dois * 0.4 + titulacao_dois * 0.3) / 1.0\n\nif media_um == media_dois and idade_um == idade_dois:\n    print \"Empate.\"\nelse:\n    if media_um > media_dois:\n        print \"O primeiro candidato foi aprovado com m\u00e9dia %.1f.\" % media_um\n    elif media_um < media_dois:\n        print \"O segundo candidato foi aprovado com m\u00e9dia %.1f.\" % media_dois\n    elif media_um == media_dois and idade_um > idade_dois:\n        print \"O primeiro candidato foi aprovado com m\u00e9dia %.1f.\" % media_um\n    elif media_um == media_dois and idade_um < idade_dois:\n        print \"O segundo candidato foi aprovado com m\u00e9dia %.1f.\" % media_dois\n",
+      "name": "concurso.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 5,\n      \"pep8\": 0,\n      \"lloc\": 21,\n      \"vhalstead\": 262.33,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "6aa735887873b77a3c352bf6c1714e60",
+  "iid": 4976057530712064,
+  "activity_revision": "1.0.2"
+}

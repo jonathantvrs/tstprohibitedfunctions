@@ -1,0 +1,14 @@
+{
+  "files": {
+    "desvio.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\nfirst_sequence = raw_input().split()\nsecond_sequence = raw_input().split()\n\nfirst_sum = 0\nfor i in range(len(first_sequence)):\n    first_sum += float(first_sequence[i])\n\nsecond_sum = 0\nfor j in range(len(second_sequence)):\n    second_sum += float(second_sequence[j])\n\nfirst_avg = first_sum / len(first_sequence)\nsecond_avg = second_sum / len(second_sequence)\n\ndesvio_first = 0\nfor k in range(len(first_sequence)):\n    desvio_first += (float(first_sequence[k]) - first_avg) ** 2\n\ndesvio_second = 0\nfor m in range(len(second_sequence)):\n    desvio_second += (float(second_sequence[m]) - second_avg) ** 2\n\ndesvio_first = math.sqrt(desvio_first / (len(first_sequence) - 1))\ndesvio_second = math.sqrt(desvio_second / (len(second_sequence) - 1))\n\nif desvio_first > desvio_second:\n    print \"A sequ\u00eancia 1 possui o maior desvio padr\u00e3o (%.2f).\" % desvio_first\nelif desvio_first == desvio_second:\n    print \"As sequ\u00eancias possuem o mesmo desvio padr\u00e3o (%.2f).\" % desvio_first\nelse:\n    print \"A sequ\u00eancia 2 possui o maior desvio padr\u00e3o (%.2f).\" % desvio_second\n",
+      "name": "desvio.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a8d8eb1dd07fe86717ea4a4f6e75174a",
+  "iid": 4982900319584256,
+  "activity_revision": "1.0.3"
+}

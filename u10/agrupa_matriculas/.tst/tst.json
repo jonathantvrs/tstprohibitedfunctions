@@ -1,0 +1,19 @@
+{
+  "files": {
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\nagrupa_por_periodo = getattr(undertest, 'agrupa_por_periodo', None)\n\nclass PublicTests(unittest.TestCase):\n\n    def test_exemplo(self):\n        turma = [\n            '0511114', '0521137', '0611001',\n            '0611003', '0611004', '0621006',\n            '0811007', '0811009', '0811502',\n            '0811604', '0811605',\n        ]\n        assert agrupa_por_periodo(turma) == {\n            '051': 1,\n            '052': 1,\n            '061': 3,\n            '062': 1,\n            '081': 5,\n        }\n    \nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    },
+    "agrupa.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# jonathan.tavares.silva\n# 118210631\n\ndef my_slice(p, l):\n\tdigitos_periodo = ''\n\tfor i in range(0, p):\n\t\tdigitos_periodo += l[i]\n\t\t\n\treturn digitos_periodo\n\n\ndef my_in(p, l):\n\tfor e in l:\n\t\tif e == p:\n\t\t\treturn True\n\treturn False\n\n\ndef agrupa_por_periodo(turma):\n\tmapa_matricula = {}\n\n\tfor i in range(len(turma)):\n\t\tperiodo = my_slice(3, turma[i])\n\t\tif my_in(periodo, mapa_matricula):\n\t\t\tmapa_matricula[periodo] += 1\n\t\telse:\n\t\t\tmapa_matricula[periodo] = 1\n\treturn mapa_matricula\n\nprint agrupa_por_periodo(['0111', '0112', '0221', '0222'])\n",
+      "name": "agrupa.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "9fbac90da50b9eaeb86d255bddbc2f37",
+  "iid": 5774959745957888,
+  "activity_revision": "1.0.0"
+}

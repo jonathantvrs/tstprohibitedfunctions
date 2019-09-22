@@ -1,0 +1,18 @@
+{
+  "files": {
+    "descarta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nquantidade_lidos = int(raw_input())\n\naceitos, descartados, letras_diferentes = 0, 0, 0\nnumeros_aceitos, numeros_descartados = \"\", \"\"\n\nfor i in range(quantidade_lidos):\n    numero = raw_input()\n    for j in range(len(numero)):\n        if int(numero[j]) == j:\n            descartados += 1\n            numeros_descartados += \"\\n\" + numero\n            letras_diferentes = 0\n            break\n        else:\n            letras_diferentes += 1\n    if letras_diferentes == len(numero):\n        aceitos += 1\n        numeros_aceitos += numero + \"\\n\"\n        letras_diferentes = 0\n\nprint \"---\"\nprint \"%d aceito(s)\\n%s%d descartado(s)%s\" % (aceitos, numeros_aceitos, descartados, numeros_descartados)\n",
+      "name": "descarta.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 7,\n      \"pep8\": 0,\n      \"lloc\": 21,\n      \"vhalstead\": 27.0,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "73a8ccf77dcf7e8b69c54039b0665444",
+  "iid": 4951089275207680,
+  "activity_revision": "1.0.1"
+}

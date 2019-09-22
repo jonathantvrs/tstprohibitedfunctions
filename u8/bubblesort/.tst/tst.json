@@ -1,0 +1,19 @@
+{
+  "files": {
+    "bubble.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndef bubblesort(dados):\n    for i in range(len(dados) - 1):\n        for j in range(len(dados) - 1):\n            if dados[j] > dados[j + 1]:\n                dados[j], dados[j + 1] = dados[j + 1], dados[j]\n",
+      "name": "bubble.py"
+    },
+    "public_tests.py": {
+      "category": "public",
+      "data": "import unittest\nimport sys\n\nundertest = __import__(sys.argv[-1].split(\".py\")[0])\nbubblesort = getattr(undertest, 'bubblesort', None)\n\nclass PublicTests(unittest.TestCase):\n\n    def test_exemplo(self):\n        lista = [3,9,1,2]\n        bubblesort(lista)\n        assert lista == [1,2,3,9]\n        \nif __name__ == '__main__':\n    loader = unittest.TestLoader()\n    runner = unittest.TextTestRunner()\n    runner.run(loader.loadTestsFromModule(sys.modules[__name__]))\n",
+      "name": "public_tests.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "06423aa880a24b0e14139317750b5314",
+  "iid": 5793509630017536,
+  "activity_revision": "1.0.0"
+}

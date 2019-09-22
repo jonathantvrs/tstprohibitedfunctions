@@ -1,0 +1,14 @@
+{
+  "files": {
+    "acudes.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ncapacidade_total = float(raw_input(\"capacidade? \"))\npercentual_hoje = float(raw_input(\"percentual hoje? \"))\ngasto_diario = float(raw_input(\"gasto di\u00e1rio? \"))\n\nvolume = capacidade_total * (percentual_hoje / 100)\ndias_restantes = volume / gasto_diario\n\nprint \"volume: %.2f\" % volume\nprint \"dias restantes: %d\" % dias_restantes\n",
+      "name": "acudes.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8939c575caca2148607a48a525eadda9",
+  "iid": 5364388877828096,
+  "activity_revision": "1.1.0"
+}

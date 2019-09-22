@@ -1,0 +1,14 @@
+{
+  "files": {
+    "salario.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnome_funcionario = raw_input()\nquantidade_horas_extras = float(raw_input()) \nvalor_salario_minimo = float(raw_input())\nvalor_hora_extra = float(raw_input())\n\nsalario_hora_extra = quantidade_horas_extras * valor_hora_extra\nsalario_bruto = 4 * valor_salario_minimo + salario_hora_extra\nimposto_e_roubo_inss = salario_bruto * 0.12\nimposto_e_roubo_renda = salario_bruto * 0.20\nsalario_liquido = salario_bruto - imposto_e_roubo_inss - imposto_e_roubo_renda \n\n\nprint \"O Sal\u00e1rio Bruto de %s \u00e9 de R$ %.2f\" % (nome_funcionario, salario_bruto)\nprint \"O Sal\u00e1rio L\u00edquido de %s \u00e9 de R$ %.2f\" % (nome_funcionario, salario_liquido)\n",
+      "name": "salario.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "4461dbebbcea25f727c934fb90af4e19",
+  "iid": 5803861407170560,
+  "activity_revision": "1.1.0"
+}

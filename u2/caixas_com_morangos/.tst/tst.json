@@ -1,0 +1,14 @@
+{
+  "files": {
+    "caixas_com_morangos.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nquantidade_de_morangos = int(raw_input())\n\nquantidade_de_caixas = quantidade_de_morangos / 400\nporcentagem_de_morangos_perdidos = quantidade_de_morangos % 400.0 * 100 / quantidade_de_morangos\n\nprint \"Ser\u00e3o necess\u00e1rias %d caixa(s) para embalar os morangos.\" % quantidade_de_caixas\nprint \"%.1f%% dos morangos ser\u00e3o perdidos.\" % porcentagem_de_morangos_perdidos\n",
+      "name": "caixas_com_morangos.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "9d243e8b01052878f8d25c1fabe17227",
+  "iid": 5662853235212288,
+  "activity_revision": "1.0.0"
+}

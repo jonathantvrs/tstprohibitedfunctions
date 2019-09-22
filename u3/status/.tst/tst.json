@@ -1,0 +1,18 @@
+{
+  "files": {
+    "status.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnota_um = float(raw_input())\nnota_dois = float(raw_input())\nnota_tres = float(raw_input())\nnumero_faltas = int(raw_input())\n\nmedia = (nota_um + nota_dois + nota_tres) / 3\n\nif numero_faltas < 8:\n    if media >= 7:\n        print \"aprovado por media\"\n    elif 4 <= media < 7:\n        print \"prova final\"\n    else: \n        print \"reprovado por nota\"\nelse:\n    print \"reprovado por faltas\"\n",
+      "name": "status.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 4,\n      \"pep8\": 1,\n      \"lloc\": 13,\n      \"vhalstead\": 81.75,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "daffa9307ac4190d3c33e98e365c5e98",
+  "iid": 5537206919757824,
+  "activity_revision": "1.1.1"
+}

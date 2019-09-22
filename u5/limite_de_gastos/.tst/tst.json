@@ -1,0 +1,18 @@
+{
+  "files": {
+    "limite.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# jonathan.tavares.silva\n# 118210631\nimport locale\n\nmedia_mensal_secretaria = float(raw_input())\n\n\nsequencia = \"\"\t\nwhile True:\n    dados = raw_input().split()\n    \n    avg = 0.0\n\n    if dados[0] != \"fim\":\n        for dado in dados:\n            avg += float(dado)\n        avg /= float(len(dados))\n \n        if avg > media_mensal_secretaria / 2.0: \n            if avg > media_mensal_secretaria:\n                for i in range(len(dados)):\n                    if (i + 1) < len(dados):       \n                        sequencia += str(locale.format(\"%.1f\", float(dados[i]))) + \" \"\n                    else:\n                        sequencia +=  str(locale.format(\"%.1f\", float(dados[i])))\n                print sequencia\n                sequencia = \"\"\n        else: break\n    else: break \n",
+      "name": "limite.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 8,\n      \"pep8\": 2,\n      \"lloc\": 19,\n      \"vhalstead\": 85.84,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "fde7ef775c7f9386ffad430a183aecfc",
+  "iid": 5317962596614144,
+  "activity_revision": "1.0.3"
+}

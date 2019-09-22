@@ -1,0 +1,14 @@
+{
+  "files": {
+    "media_ponderada.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8  -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nnota_um = float(raw_input())\nnota_dois = float(raw_input())\nnota_tres = float(raw_input())\npeso_um = float(raw_input())\npeso_dois = float(raw_input())\n\npeso_tres = 100 - (peso_um + peso_dois)\nmedia_final = (nota_um * peso_um + nota_dois * peso_dois + nota_tres * peso_tres) / 100\n\nprint \"M\u00e9dia Final: %.1f\" % media_final\n",
+      "name": "media_ponderada.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "e9940f7dc999c92a62cb2ebe23bd47c6",
+  "iid": 5467248311402496,
+  "activity_revision": "1.1.1"
+}

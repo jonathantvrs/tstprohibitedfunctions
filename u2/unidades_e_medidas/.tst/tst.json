@@ -1,0 +1,14 @@
+{
+  "files": {
+    "unidades_e_medidas.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nmetros = float(raw_input())\n\njardas = metros / 0.9144\npes = jardas * 3\npolegadas = jardas * 36\n\nprint \"Jardas: %.3f yd\" % jardas\nprint \"P\u00e9s: %.3f ft\" % pes\nprint \"Polegadas: %.3f in\" % polegadas\n",
+      "name": "unidades_e_medidas.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "aae45ac00c7f4fd4640454d9186637af",
+  "iid": 4634301278715904,
+  "activity_revision": "1.1.0"
+}

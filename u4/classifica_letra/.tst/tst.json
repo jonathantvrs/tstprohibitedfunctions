@@ -1,0 +1,18 @@
+{
+  "files": {
+    "letra.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npalavra = raw_input()\n\nfor caractere in palavra:\n    if caractere in \"aeiouAEIOU\":\n        print \"<\" + caractere + \">\" + \" \" + \"sim\"\n    else:\n        print \"<\" + caractere + \">\" + \" \" + \"nao\"\n",
+      "name": "letra.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 7,\n      \"vhalstead\": 25.27,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "f629b8a8fa14e60619048fb35b413990",
+  "iid": 6428762774175744,
+  "activity_revision": "1.0.2"
+}

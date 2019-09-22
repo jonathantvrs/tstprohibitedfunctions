@@ -1,0 +1,14 @@
+{
+  "files": {
+    "vendas.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nbrinquedos_vendidos = int(raw_input())\nvendidos_teresa = int(raw_input())\nvendidos_carla = int(raw_input())\n\nvendidos_joaquim = brinquedos_vendidos - (vendidos_teresa + vendidos_carla)\nporcentagem_teresa = vendidos_teresa / float(brinquedos_vendidos) * 100\nporcentagem_carla = vendidos_carla / float(brinquedos_vendidos) * 100\nporcentagem_joaquim = vendidos_joaquim / float(brinquedos_vendidos) * 100\n\nprint \"Teresa vendeu %d (de %d) brinquedos. (%.2f%%)\" % (vendidos_teresa, brinquedos_vendidos, porcentagem_teresa)\nprint \"Joaquim vendeu %d (de %d) brinquedos. (%.2f%%)\" % (vendidos_joaquim, brinquedos_vendidos, porcentagem_joaquim)\nprint \"Carla vendeu %d (de %d) brinquedos. (%.2f%%)\" % (vendidos_carla, brinquedos_vendidos, porcentagem_carla)\n",
+      "name": "vendas.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "164ee2c9daf81c336eb269c79dbd5db6",
+  "iid": 6360073227993088,
+  "activity_revision": "1.0.0"
+}

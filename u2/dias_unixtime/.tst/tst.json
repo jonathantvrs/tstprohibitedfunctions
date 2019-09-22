@@ -1,0 +1,14 @@
+{
+  "files": {
+    "dias_unixtime.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nsegundos = int(raw_input())\n\nquantidade_dias = segundos / 60 ** 2 / 24\n\nprint quantidade_dias\n",
+      "name": "dias_unixtime.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "68e87caf6261d9dc07b96b24a3b32225",
+  "iid": 5920310989684736,
+  "activity_revision": "1.1.0"
+}

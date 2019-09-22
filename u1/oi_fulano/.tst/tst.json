@@ -1,0 +1,14 @@
+{
+  "files": {
+    "oi_fulano.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnome_do_fulano = raw_input()\n\nprint \"Oi\", nome_do_fulano\n",
+      "name": "oi_fulano.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "8ba3daa46f36f761b1539f1206cff014",
+  "iid": 5844474148159488,
+  "activity_revision": "1.12.1"
+}

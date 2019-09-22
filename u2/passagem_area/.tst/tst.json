@@ -1,0 +1,14 @@
+{
+  "files": {
+    "passagem_aerea.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ndistancia_aeroportos = float(raw_input())\naliquota = float(raw_input())\n\nvalor_passagem = distancia_aeroportos * aliquota + 51\npassagem_a_vista = valor_passagem - (valor_passagem * 0.25)\npassagem_seis_parcelas = valor_passagem - (valor_passagem * 0.05)\n\nprint \"Valor da passagem: R$ %.2f\" % valor_passagem\nprint \"\"\nprint \"Pagamento:\"\nprint \"1. \u00c0 vista. R$ %.2f\" % passagem_a_vista\nprint \"2. Em 6 parcelas. Total: R$ %.2f\" % passagem_seis_parcelas\nprint \"   6 x R$ %.2f\" % (passagem_seis_parcelas / 6.0)\nprint \"3. Em 10 parcelas. Total: R$ %.2f\" % valor_passagem\nprint \"   10 x R$ %.2f\" % (valor_passagem / 10.0)\n",
+      "name": "passagem_aerea.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "144ba4e601180f5d4c1bc81660cb3400",
+  "iid": 6355099387428864,
+  "activity_revision": "2.0.0"
+}

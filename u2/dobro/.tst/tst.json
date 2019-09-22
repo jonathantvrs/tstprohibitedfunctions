@@ -1,0 +1,14 @@
+{
+  "files": {
+    "dobro.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero = int(raw_input())\n\nprint numero * 2\n",
+      "name": "dobro.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "3bfdea11a0cfd6114a7fb36710088e92",
+  "iid": 5905766116491264,
+  "activity_revision": "1.1.1"
+}

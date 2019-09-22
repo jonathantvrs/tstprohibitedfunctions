@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "1\n",
+      "output": "R$ 1.50\n"
+    },
+    {
+      "category": "public",
+      "input": "10\n",
+      "output": "R$ 7.00\n"
+    },
+    {
+      "category": "public",
+      "input": "14\n",
+      "output": "R$ 9.80\n"
+    }
+  ]
+}

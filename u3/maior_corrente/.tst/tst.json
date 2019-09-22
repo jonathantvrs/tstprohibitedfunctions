@@ -1,0 +1,14 @@
+{
+  "files": {
+    "maior_corrente.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\ntensao_um = int(raw_input())\nresistencia_um = int(raw_input())\ntensao_dois = int(raw_input())\nresistencia_dois = int(raw_input())\ntensao_tres = int(raw_input())\nresistencia_tres = int(raw_input())\n\ncorrente_um = tensao_um / float(resistencia_um)\ncorrente_dois = tensao_dois / float(resistencia_dois)\ncorrente_tres = tensao_tres / float(resistencia_tres)\n\nif corrente_um > corrente_dois and corrente_um > corrente_tres:\n    if corrente_um < (10 ** -3):\n        corrente_um *= 10 ** 6 \n        simbolo = '\u00b5A'       \n    elif 10 ** -3 <= corrente_um < 1:\n        corrente_um *= 10 ** 3   \n        simbolo = 'mA'\n    else:\n        simbolo = 'A'       \n\n    print \"condutor com maior corrente: 1\"\n    print \"maior corrente: %.2f %s\" % (corrente_um, simbolo)\nelif corrente_dois > corrente_um and corrente_dois > corrente_tres:\n    if corrente_dois < 10 ** -3:\n        corrente_dois *= 10 ** 6\n        simbolo = '\u00b5A'        \n    elif 10 ** -3 <= corrente_dois < 1:\n        corrente_dois *= 10 ** 3\n        simbolo = 'mA'\n    else:\n        simbolo = 'A'   \n    print \"condutor com maior corrente: 2\"\n    print \"maior corrente: %.2f %s\" % (corrente_dois, simbolo)\nelif corrente_tres > corrente_um and corrente_tres > corrente_dois:\n    if corrente_tres < 10 ** -3:\n        corrente_tres *= 10 ** 6\n        simbolo = '\u00b5A'        \n    elif 10 ** -3 <= corrente_tres < 1:\n        corrente_tres *= 10 ** 3\n        simbolo = 'mA'\n    else:\n        simbolo = 'A'   \n    print \"condutor com maior corrente: 3\"\n    print \"maior corrente: %.2f %s\" % (corrente_tres, simbolo)\n\n",
+      "name": "maior_corrente.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "fb487ce0ffd698d9c79cdeb43cfc8766",
+  "iid": 5234316732792832,
+  "activity_revision": "1.1.1"
+}

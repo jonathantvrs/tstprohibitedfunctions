@@ -1,0 +1,18 @@
+{
+  "files": {
+    "mais.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\npalavra, lista_palavras = raw_input(), []\nwhile palavra != \"fim\":\n    lista_palavras.append(palavra)\n\n    palavra = raw_input()\n    \n\ncaractere = raw_input()\nparametro = int(raw_input())\n\ntem_palavra = False\nfor i in range(len(lista_palavras)):\n    conta_caractere = 0\n    for c in lista_palavras[i]:\n        if c == caractere:\n            conta_caractere += 1\n    if conta_caractere > parametro:\n        print lista_palavras[i]\n        tem_palavra = True\n\nif not tem_palavra:\n    print \"Nenhuma palavra encontrada.\"\n",
+      "name": "mais.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 7,\n      \"pep8\": 0,\n      \"lloc\": 20,\n      \"vhalstead\": 55.51,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "a7ba010f4f7fb72a3a502418792d9675",
+  "iid": 5347610588086272,
+  "activity_revision": "1.0.2"
+}

@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "100.0\n1.0\nvista\n",
+      "output": "Total: R$ 80.00\n",
+      "type": "io"
+    },
+    {
+      "category": "public",
+      "input": "10\n10\n2x\n",
+      "output": "Total: R$ 90.00. Parcelas: R$ 45.00\n",
+      "type": "io"
+    },
+    {
+      "category": "public",
+      "input": "10\n10\n3x\n",
+      "output": "Total: R$ 95.00. Parcelas: R$ 31.67\n",
+      "type": "io"
+    }
+  ]
+}

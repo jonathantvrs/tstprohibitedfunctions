@@ -1,0 +1,14 @@
+{
+  "files": {
+    "aplica.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nwhile True:\n    entrada = raw_input().split()    \n    if entrada[0] != \"fim\": \n        if entrada[0] == \"p:\":\n            polinomio = []\n            print \"novo polinomio\"\n            for i in range(len(entrada) - 1, 0, -1):\n                polinomio.append(int(entrada[i]))\n        else:\n            valor_polinomio = 0\n            for i in range(len(polinomio) - 1, -1, -1):\n                valor_polinomio += polinomio[i] * int(entrada[0]) ** (len(polinomio) - i - 1) \n        \n            print valor_polinomio \n    else:\n        break\n",
+      "name": "aplica.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "6825416b2e2a1747ea727478d43ced28",
+  "iid": 5870518326525952,
+  "activity_revision": "1.0.1"
+}

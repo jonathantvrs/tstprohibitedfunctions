@@ -1,0 +1,14 @@
+{
+  "files": {
+    "quadrado.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\nlado_quadrado = float(raw_input())\n\nperimetro = 2.0 * math.pi * (lado_quadrado * math.sqrt(2) / 2)\narea_interna = math.pi * ((lado_quadrado * math.sqrt(2) / 2) ** 2) \n\nprint \"Per\u00edmetro: %.5f\" % perimetro\nprint \"\u00c1rea: %.5f\" % area_interna\n",
+      "name": "quadrado.py"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "f5360f03228922d2c0e7fdc630c83080",
+  "iid": 6180249188433920,
+  "activity_revision": "1.1.1"
+}

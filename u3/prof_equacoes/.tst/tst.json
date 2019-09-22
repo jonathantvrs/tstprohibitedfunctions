@@ -1,0 +1,18 @@
+{
+  "files": {
+    "equacoes.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\nimport math\n\na = int(raw_input())\nb = int(raw_input())\nc = int(raw_input())\n\n\ndelta = b ** 2 - 4 * a * c\n\nif a != 0:\n    if delta < 0:\n        print \"sem raizes reais\"\n    elif delta == 0:\n        x = (-b) / (2.0 * a)\n        print \"x = %.2f\" % x\n    else:\n        x1 = ((-b) + math.sqrt(delta)) / (2.0 * a)\n        x2 = ((-b) - math.sqrt(delta)) / (2.0 * a)\n        print \"x1 = %.2f\" % x1\n        print \"x2 = %.2f\" % x2\n",
+      "name": "equacoes.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 15,\n      \"vhalstead\": 245.0,\n      \"header\": 3\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "54aa1017d239a76d2d36cb2eb84ce3d5",
+  "iid": 5094173795418112,
+  "activity_revision": "1.1.2"
+}

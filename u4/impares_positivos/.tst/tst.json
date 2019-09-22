@@ -1,0 +1,18 @@
+{
+  "files": {
+    "impares.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nn = int(raw_input())\n\nfor numero in range(1, n, 2):\n    print numero\n",
+      "name": "impares.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 2,\n      \"pep8\": 0,\n      \"lloc\": 3,\n      \"vhalstead\": 0.0,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "59ed452f25603f54d66fceda146855e2",
+  "iid": 5791815466745856,
+  "activity_revision": "1.1.2"
+}

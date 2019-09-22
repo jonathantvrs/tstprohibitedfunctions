@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "segunda\n30\n",
+      "output": "atípico\n"
+    },
+    {
+      "category": "public",
+      "input": "terça\n50\n",
+      "output": "normal\n"
+    },
+    {
+      "category": "public",
+      "input": "sábado\n70\n",
+      "output": "normal\n"
+    }
+  ]
+}

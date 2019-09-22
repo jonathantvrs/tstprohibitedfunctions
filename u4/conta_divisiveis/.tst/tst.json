@@ -1,0 +1,18 @@
+{
+  "files": {
+    "conta.py": {
+      "category": "answer",
+      "data": "# -*- coding: utf-8 -*-\n# author: jonathan.tavares.silva\n# matricula: 118210631\n\nnumero_divisivel = int(raw_input())\ntamanho_sequencia = int(raw_input())\n\nquantidade_divisiveis = 0.0\nfor i in range(tamanho_sequencia):\n    numero = int(raw_input())\n    if numero % numero_divisivel == 0:\n        quantidade_divisiveis += 1\n\nporcentagem_divisiveis = quantidade_divisiveis / tamanho_sequencia * 100\n\nprint \"%d (%.1f%%)\" % (quantidade_divisiveis, porcentagem_divisiveis)\n",
+      "name": "conta.py"
+    },
+    "qcheck.json": {
+      "category": "public",
+      "data": "{\n  \"quality\": [\n    {\n      \"cc\": 3,\n      \"pep8\": 0,\n      \"lloc\": 9,\n      \"vhalstead\": 72.0,\n      \"header\": 4\n    }\n  ]\n}"
+    }
+  },
+  "kind": "assignment",
+  "name": null,
+  "checksum": "d326cda4909ddbe3189cf1f62b274001",
+  "iid": 6434161178968064,
+  "activity_revision": "1.1.1"
+}
