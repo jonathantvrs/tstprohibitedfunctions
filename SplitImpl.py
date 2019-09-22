@@ -1,18 +1,36 @@
 # -*-  coding: utf-8  -*-
 # author: jonathantvrs
 
-def custom_split(string, separator):
-    elements = []
-    string_aux = ""
+def fsplit(string, separator=" "):
+    """Returns a list of strings divided by separator. 
 
-    for element in string:
-        if element != separator:
-            string_aux += element
+    Iterate the received string character by character
+    and add the formed string to the list when it finds
+    the separator.
+
+    Parameters
+    ----------
+    string : str
+        string to split
+    separator : str, default is " " (space)
+        parameter used to split the string 
+        
+    Return
+    ------
+    elements : list
+        list containing the strings 
+    """
+    elements = []
+    aux_str = ""
+    for s in string:
+        if s != separator:
+            aux_str = aux_str + s
         else:
-            elements.append(string_aux)
-            string_aux = ""
-    if string_aux != "" or string_aux != separator:
-        elements.append(string_aux)
+            elements.append(aux_str)
+            aux_str = ""
+    
+    if aux_str != "" or aux_str != separator:
+        elements.append(aux_str)
     
     return elements
 
